@@ -184,7 +184,9 @@ def wrap(dr, words, f, maxw):
         else: cur.append(w)
     if cur: lines.append(cur)
     return lines
-def spaced(s): return '  '.join(s.upper()) if len(s) < 12 else ' '.join(s.upper())
+LANG = ['ru']
+def UP(s): return (s.replace('i', 'İ') if LANG[0] == 'az' else s).upper()
+def spaced(s): return '  '.join(UP(s)) if len(s) < 12 else ' '.join(UP(s))
 
 TX = {'ru': ('ПОДПИСАТЬСЯ', 'ПОДЕЛИСЬ — НАГРАДА И ТЕБЕ', 'ПРИЧИНЫ НИСПОСЛАНИЯ'),
       'en': ('SUBSCRIBE', 'SHARE IT — SHARE THE REWARD', 'AYAT LUMA'),
@@ -238,7 +240,7 @@ class Block:
         idx = self.sents[si]; ws = [self.words[j] for j in idx]
         tmp = ImageDraw.Draw(Image.new('RGBA', (8, 8))); size = self.size
         while True:
-            f = MONT(size, 850); lines = wrap(tmp, [x.upper() for x in ws], f, 950)
+            f = MONT(size, 850); lines = wrap(tmp, [UP(x) for x in ws], f, 950)
             if len(lines) <= (5 if self.kind != 'ayah' else 4) or size <= 44: break
             size -= 4
         lh = int(size * 1.25); hh = lh * len(lines) + 40
@@ -248,7 +250,7 @@ class Block:
         for li, ln in enumerate(lines):
             lw = d.textlength(' '.join(ln), font=f); x = (W - lw) / 2; y = 20 + li * lh
             for w in ln:
-                w = w.upper()
+                w = UP(w)
                 j = idx[n]; n += 1
                 fw = FA(size) if '\ufdfa' in w else f
                 col = (GOLD + (255,) if (j == k_in - 1 and cur) else CREAM + (255,)) if j < k_in else (255, 255, 255, 62)
@@ -280,7 +282,7 @@ def chrome(meta, lang):
     c = Image.new('RGBA', (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(c)
     s = meta.get('series', '') or TX[lang][2]
     f = MONT(26, 650)
-    d.text((W / 2, 250), s.upper(), font=f, fill=GOLD + (220,), anchor='mm')
+    d.text((W / 2, 250), UP(s), font=f, fill=GOLD + (220,), anchor='mm')
     d.line([(W / 2 - 60, 285), (W / 2 + 60, 285)], fill=GOLD + (150,), width=2)
     return c
 
@@ -292,6 +294,7 @@ def render(epdir, preview=False):
     tool = next((c for c in (os.path.join(HERE, '..', '_toolkit', 'footage.py'),) if os.path.exists(c)), None)
     blocks, meta, voice = read_ep(epdir)
     lang = meta.get('lang', 'ru') if meta.get('lang', 'ru') in TX else 'ru'
+    LANG[0] = lang
     NB = IG.NurBackground(epdir, blocks, W, H, lang)
     log('Фон блоков: ' + ', '.join('%d:%s' % (k + 1, v) for k, v in sorted(NB.kinds().items())))
     if NB.video and os.path.exists(kf) and tool:
