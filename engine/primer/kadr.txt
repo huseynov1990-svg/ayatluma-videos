@@ -1,0 +1,13 @@
+# N | блок | VIDEO: english search words (только природа, без людей)
+1 | 1 | VIDEO: night sky stars timelapse
+2 | 2 | VIDEO: dark clouds moon night
+3 | 3 | VIDEO: sunrise mist mountains
+4 | 4 | VIDEO: golden sunrise clouds sky
+5 | 5 | VIDEO: morning dew leaves
+6 | 6 | VIDEO: water stream clear
+7 | 7 | VIDEO: waterfall slow motion
+8 | 8 | VIDEO: desert dunes sunrise
+9 | 9 | VIDEO: sky clouds timelapse sunrise
+10 | 10 | VIDEO: sun rays forest morning
+11 | 11 | VIDEO: calm lake sunrise reflection
+12 | 12 | VIDEO: light rays clouds

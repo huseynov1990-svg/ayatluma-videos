@@ -1,0 +1,6 @@
+.secrets/
+_stil/.models/
+work/
+__pycache__/
+*.pyc
+_toolkit/assets/

@@ -1,0 +1,19 @@
+Звуки и музыка скачаны с zvukitop.com (14.11.2026)
+
+ВАЖНО ПРО ПРАВА. Сам сайт пишет, что без авторских прав только то, где это указано.
+Поэтому музыку брал ТОЛЬКО из разделов «Музыка CC0» и проверил метки внутри файлов:
+  Funshine, City Sunshine            — Kevin MacLeod, источник freepd.com, CC0 (общественное достояние)
+  Crossing the Chasm                 — Kevin MacLeod, «Dedicated to the Public Domain»
+  Busybody, Inventing Flight, Slice of Life — Bryan Teoh, «dedicated to the Public Domain»
+  Emotional Blockbuster 2            — Rafael Krux (freepd.com, CC0)
+  Advertime, Happy Whistling Ukulele, Travelers Notebook, Desert Fox Underscore, Think About It, Heroic Adventure
+                                     — раздел CC0 сайта, меток автора в файле нет (скорее всего freepd.com).
+  Не брал: Cartoon Pizzicato и Comic Game Loop — это incompetech (CC-BY, нужно указывать автора).
+
+ЭФФЕКТЫ (короткие, без голоса): тиканье секундомера, «верно», swoosh, riser, boom, фанфары победы.
+Звуки из телешоу («Кто хочет стать миллионером», «Поле чудес», «100 к 1», Марио) специально НЕ брал — на них бывают жалобы.
+
+Для надёжности можно добавить в описание видео: Music: Kevin MacLeod / Bryan Teoh / Rafael Krux (freepd.com, CC0).
+
+Музыка для квизов (бодрая): Funshine (стоит сейчас), City-Sunshine, Advertime, Happy-Whistling-Ukulele, Busybody, Inventing-Flight
+Музыка для историй (кино/документальная): Emotional-Blockbuster-2, Crossing-the-Chasm, Travelers-Notebook, Desert-Fox-Underscore, Slice-of-Life, Think-About-It, Heroic-Adventure
