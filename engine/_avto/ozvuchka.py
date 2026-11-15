@@ -8,10 +8,13 @@ def heard(f):
     raw = subprocess.run(['ffmpeg', '-v', 'error', '-i', f, '-ac', '1', '-ar', '16000', '-f', 'f32le', '-'], capture_output=True).stdout
     s, _ = M.transcribe(np.frombuffer(raw, np.float32), language=lang); return ' '.join(x.text for x in s)
 paras = [p.strip() for p in re.split(r'\n\s*\n', open(os.path.join(ep, 'Ssenari_ozvucka.txt'), encoding='utf-8-sig').read()) if p.strip()]
+# po 3 abzatsa v odnom zaprose (limit Gemini TTS ~100 zaprosov v den); pauza mezhdu abzatsami - pustaya stroka
+GRP = 3
+paras = ['\n\n'.join(paras[i:i + GRP]) for i in range(0, len(paras), GRP)]
 os.makedirs(os.path.join(ep, 'voice'), exist_ok=True); parts = []
 for i, p in enumerate(paras):
     out = os.path.join(ep, 'voice', 'p%02d.wav' % i); best = None
-    for tr in range(4):
+    for tr in range(3):
         r = subprocess.run(['python3', os.path.join(os.path.dirname(os.path.abspath(__file__)), 'tts.py'), 'gemini-3.8-flash-tts', voice, style, p, out], stdin=subprocess.DEVNULL, capture_output=True, text=True)
         if r.returncode != 0: continue
         d = float(r.stdout.split()[1]); h = heard(out)
