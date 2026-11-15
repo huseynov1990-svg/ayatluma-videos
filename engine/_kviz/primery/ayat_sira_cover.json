@@ -1,0 +1,41 @@
+{
+ "prompt": "Ancient open book glowing softly on a desert night under a starry sky, a golden question mark of light floating above it, cinematic, no people, no text",
+ "lines": [
+  [
+   "ТОЛЬКО 1 ИЗ 10",
+   76,
+   "cream",
+   230
+  ],
+  [
+   "ОТВЕТИТ",
+   120,
+   "gold",
+   370
+  ],
+  [
+   "НА ВСЁ",
+   120,
+   "gold",
+   500
+  ],
+  [
+   "10 ВОПРОСОВ",
+   80,
+   "gold",
+   1560
+  ],
+  [
+   "О ЖИЗНИ ПРОРОКА ﷺ",
+   56,
+   "cream",
+   1680
+  ],
+  [
+   "ПРОВЕРЬ СЕБЯ",
+   44,
+   "cream",
+   1790
+  ]
+ ]
+}

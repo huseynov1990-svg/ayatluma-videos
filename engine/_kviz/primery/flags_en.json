@@ -1,0 +1,151 @@
+{
+ "kind": "country",
+ "lang": "en",
+ "brand": "",
+ "voice": "Laomedeia",
+ "style": "An energetic, friendly female quiz-show host for a viral geography channel, speaking American English. Bright, playful and confident, a little suspense before each answer. Clear pauses at every empty line.",
+ "music": "/home/claude/ayatluma-videos/engine/zvuki/muzyka/Crossing-the-Chasm.mp3",
+ "header": "Guess the flag · Level 2",
+ "intro_title": [
+  "Guess the flag",
+  "15 countries · easy to hard"
+ ],
+ "levels": {
+  "easy": "EASY",
+  "medium": "MEDIUM",
+  "hard": "HARD"
+ },
+ "answer_label": "ANSWER",
+ "outro_title": "How many out of 15?",
+ "outro_sub": "Write your score in the comments",
+ "subscribe": "Subscribe",
+ "intro_voice": "Fifteen flags… almost nobody gets the last three. Can you? Keep score. Let's go!",
+ "outro_voice": "So… how many did you get? Write your score out of fifteen in the comments. And subscribe for a new quiz every day!",
+ "cover_lines": [
+  "Nobody gets the last 3 flags",
+  "Can you get 15/15?"
+ ],
+ "out": "CARTO_QUIZ_flags2_EN",
+ "items": [
+  {
+   "mode": "flag",
+   "iso2": "it",
+   "answer": "Italy",
+   "level": "easy",
+   "q_voice": "One.",
+   "a_voice": "It's… Italy!"
+  },
+  {
+   "mode": "flag",
+   "iso2": "mx",
+   "answer": "Mexico",
+   "level": "easy",
+   "q_voice": "Two.",
+   "a_voice": "It's… Mexico!"
+  },
+  {
+   "mode": "flag",
+   "iso2": "cn",
+   "answer": "China",
+   "level": "easy",
+   "q_voice": "Three.",
+   "a_voice": "It's… China!"
+  },
+  {
+   "mode": "flag",
+   "iso2": "se",
+   "answer": "Sweden",
+   "level": "easy",
+   "q_voice": "Four.",
+   "a_voice": "It's… Sweden!"
+  },
+  {
+   "mode": "flag",
+   "iso2": "eg",
+   "answer": "Egypt",
+   "level": "easy",
+   "q_voice": "Five.",
+   "a_voice": "It's… Egypt!"
+  },
+  {
+   "mode": "flag",
+   "iso2": "ge",
+   "answer": "Georgia",
+   "level": "medium",
+   "q_voice": "Now it gets harder. Six.",
+   "a_voice": "It's… Georgia!"
+  },
+  {
+   "mode": "flag",
+   "iso2": "pk",
+   "answer": "Pakistan",
+   "level": "medium",
+   "q_voice": "Seven.",
+   "a_voice": "It's… Pakistan!"
+  },
+  {
+   "mode": "flag",
+   "iso2": "uz",
+   "answer": "Uzbekistan",
+   "level": "medium",
+   "q_voice": "Eight.",
+   "a_voice": "It's… Uzbekistan!"
+  },
+  {
+   "mode": "flag",
+   "iso2": "za",
+   "answer": "South Africa",
+   "level": "medium",
+   "q_voice": "Nine.",
+   "a_voice": "It's… South Africa!"
+  },
+  {
+   "mode": "flag",
+   "iso2": "vn",
+   "answer": "Vietnam",
+   "level": "medium",
+   "q_voice": "Ten.",
+   "a_voice": "It's… Vietnam!"
+  },
+  {
+   "mode": "flag",
+   "iso2": "lk",
+   "answer": "Sri Lanka",
+   "level": "hard",
+   "q_voice": "Only true experts get these. Eleven.",
+   "a_voice": "It's… Sri Lanka!"
+  },
+  {
+   "mode": "flag",
+   "iso2": "kg",
+   "answer": "Kyrgyzstan",
+   "level": "hard",
+   "q_voice": "Twelve.",
+   "a_voice": "It's… Kyrgyzstan!"
+  },
+  {
+   "mode": "flag",
+   "iso2": "mz",
+   "answer": "Mozambique",
+   "level": "hard",
+   "q_voice": "Thirteen.",
+   "a_voice": "It's… Mozambique!"
+  },
+  {
+   "mode": "flag",
+   "iso2": "cy",
+   "answer": "Cyprus",
+   "level": "hard",
+   "q_voice": "Fourteen.",
+   "a_voice": "It's… Cyprus!"
+  },
+  {
+   "mode": "flag",
+   "iso2": "sc",
+   "answer": "Seychelles",
+   "level": "hard",
+   "q_voice": "Fifteen.",
+   "a_voice": "It's… Seychelles!"
+  }
+ ]
+}

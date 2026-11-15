@@ -1,0 +1,169 @@
+{
+ "kind": "text",
+ "lang": "az",
+ "brand": "",
+ "voice": "Sulafat",
+ "style": "A warm, friendly female quiz host on an Islamic channel, speaking Azerbaijani (Baku, clear literary pronunciation). Calm but engaging, a little suspense before each answer. Medium pace, slower on numbers and answers. Clear pauses at every empty line.",
+ "music": "/home/claude/ayatluma-videos/engine/zvuki/muzyka/Desert-Fox-Underscore.mp3",
+ "header": "Ruhun Qidası · Viktorina",
+ "intro_title": [
+  "Özünü yoxla",
+  "Peyğəmbərin ﷺ həyatı haqqında 10 sual"
+ ],
+ "intro_sub": "Xallarını say",
+ "levels": {
+  "easy": "ASAN",
+  "medium": "ORTA",
+  "hard": "ÇƏTİN"
+ },
+ "answer_label": "CAVAB",
+ "outro_title": "10-dan neçə?",
+ "outro_sub": "Nəticəni şərhlərdə yaz",
+ "subscribe": "ABUNƏ OL",
+ "intro_voice": "Bu suallara hamısına yalnız onda bir nəfər cavab verir. Peyğəmbərin ﷺ həyatını nə qədər yaxşı bilirsən? Xallarını say!",
+ "outro_voice": "Hə… ondan neçə? Nəticəni şərhlərdə yaz. Və abunə ol: qarşıda yeni suallar var.",
+ "bg_prompt": "Quiet desert at night under a starry sky, distant dark mountains, soft blue moonlight",
+ "out": "RUHUN_QIDASI_VIKTORINA_001_sire",
+ "items": [
+  {
+   "mode": "text",
+   "level": "easy",
+   "q": "Peyğəmbərə ﷺ ilk vəhy gələndə onun neçə yaşı var idi?",
+   "options": [
+    "25 yaş",
+    "40 yaş",
+    "63 yaş"
+   ],
+   "correct": 1,
+   "source": "Buxari, 3851",
+   "q_voice": "Birinci sual. Peyğəmbərə ﷺ ilk vəhy gələndə onun neçə yaşı var idi?",
+   "a_voice": "Qırx yaş."
+  },
+  {
+   "mode": "text",
+   "level": "easy",
+   "q": "Quranın nazil olan ilk sözü hansıdır?",
+   "options": [
+    "«De!»",
+    "«Oxu!»",
+    "«Həmd olsun»"
+   ],
+   "correct": 1,
+   "source": "Buxari, 3 · Quran, 96:1",
+   "q_voice": "İkinci sual. Quranın nazil olan ilk sözü hansıdır?",
+   "a_voice": "«Oxu!»"
+  },
+  {
+   "mode": "text",
+   "level": "easy",
+   "q": "İlk vəhy hansı mağarada gəldi?",
+   "options": [
+    "Səvr mağarası",
+    "Hira mağarası",
+    "Uhud mağarası"
+   ],
+   "correct": 1,
+   "source": "Buxari, 3",
+   "q_voice": "Üçüncü sual. İlk vəhy hansı mağarada gəldi?",
+   "a_voice": "Hira mağarası."
+  },
+  {
+   "mode": "text",
+   "level": "medium",
+   "q": "Mədinənin qədim adı nə idi?",
+   "options": [
+    "Yəsrib",
+    "Taif",
+    "Bəkkə"
+   ],
+   "correct": 0,
+   "source": "Quran, 33:13",
+   "q_voice": "Dördüncü sual. Mədinənin qədim adı nə idi?",
+   "a_voice": "Yəsrib."
+  },
+  {
+   "mode": "text",
+   "level": "medium",
+   "q": "Hicrət zamanı Peyğəmbər ﷺ və Əbu Bəkr hansı mağarada gizləndilər?",
+   "options": [
+    "Hira mağarası",
+    "Səvr mağarası",
+    "Kəhf mağarası"
+   ],
+   "correct": 1,
+   "source": "Buxari, 3905",
+   "q_voice": "Beşinci sual. Hicrət zamanı Peyğəmbər ﷺ və Əbu Bəkr hansı mağarada gizləndilər?",
+   "a_voice": "Səvr mağarası."
+  },
+  {
+   "mode": "text",
+   "level": "medium",
+   "q": "Onlar o mağarada neçə gecə qaldılar?",
+   "options": [
+    "Bir gecə",
+    "Üç gecə",
+    "Yeddi gecə"
+   ],
+   "correct": 1,
+   "source": "Buxari, 3905",
+   "q_voice": "Altıncı sual. Onlar o mağarada neçə gecə qaldılar?",
+   "a_voice": "Üç gecə."
+  },
+  {
+   "mode": "text",
+   "level": "medium",
+   "q": "Peyğəmbər ﷺ vəhydən sonra Məkkədə neçə il dəvət etdi?",
+   "options": [
+    "10 il",
+    "13 il",
+    "23 il"
+   ],
+   "correct": 1,
+   "source": "Buxari, 3851",
+   "q_voice": "Yeddinci sual. Peyğəmbər ﷺ vəhydən sonra Məkkədə neçə il dəvət etdi?",
+   "a_voice": "On üç il."
+  },
+  {
+   "mode": "text",
+   "level": "hard",
+   "q": "Bədr döyüşündə neçə müsəlman var idi?",
+   "options": [
+    "310-dan bir az çox",
+    "Təxminən 1000",
+    "Təxminən 3000"
+   ],
+   "correct": 0,
+   "source": "Buxari, 3957",
+   "q_voice": "Səkkizinci sual. Bədr döyüşündə neçə müsəlman var idi?",
+   "a_voice": "Üç yüz ondan bir az çox."
+  },
+  {
+   "mode": "text",
+   "level": "hard",
+   "q": "Peyğəmbər ﷺ adətən gecə namazını neçə rükət qılardı — həm Ramazanda, həm başqa aylarda?",
+   "options": [
+    "8 rükət",
+    "11 rükət",
+    "20 rükət"
+   ],
+   "correct": 1,
+   "source": "Buxari, 1147",
+   "q_voice": "Doqquzuncu sual. Peyğəmbər ﷺ adətən gecə namazını neçə rükət qılardı — həm Ramazanda, həm başqa aylarda?",
+   "a_voice": "On bir rükət."
+  },
+  {
+   "mode": "text",
+   "level": "hard",
+   "q": "Peyğəmbər ﷺ dünyadan köçəndə neçə yaşında idi?",
+   "options": [
+    "60 yaş",
+    "63 yaş",
+    "70 yaş"
+   ],
+   "correct": 1,
+   "source": "Buxari, 3536 · Müslim, 2348",
+   "q_voice": "Onuncu sual. Peyğəmbər ﷺ dünyadan köçəndə neçə yaşında idi?",
+   "a_voice": "Altmış üç yaş."
+  }
+ ]
+}

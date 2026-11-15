@@ -1,0 +1,17 @@
+# ОЧЕРЕДЬ ВИКТОРИН Tarixin izi (AZ) + Cartopolis (EN). Формат: [статус] | тип | тема
+# Типы: flag / shape / text (столицы, факты — 3 варианта). 15 вопросов: 5 easy, 5 medium, 5 hard.
+# НЕ повторять страны в одном и том же типе за последние 30 дней (смотри готовые викторины в engine/_kviz/gotovye/ и прошлые посты).
+# Уже были: shape (мир, 15: ITA JPN AUS IND CHL GBR BRA TUR NOR MEX AZE VNM MDG GRC MNG), flag (мир, 15: jp ca br de in kr tr az ar gr pt ke kz np bt), flag ур.2 (it mx cn se eg ge pk uz za vn lk kg mz cy sc).
+[готово 2026-11-16] | flag | Bayrağa görə tap · 2-ci səviyyə / Guess the flag · Level 2
+[ ] | shape | Avropa ölkələri formasına görə / European countries by shape
+[ ] | text | Paytaxtı tap: 15 ölkə / Guess the capital: 15 countries
+[ ] | flag | Asiya bayraqları / Flags of Asia
+[ ] | shape | Afrika ölkələri formasına görə / African countries by shape
+[ ] | text | Hansı ölkə daha böyükdür? (iki ölkə, 3 variant: A, B, eyni) / Which country is bigger?
+[ ] | flag | Bayraqlar: bir-birinə oxşayanlar (Çad-Rumıniya, İndoneziya-Monako…) / Lookalike flags
+[ ] | shape | Asiya ölkələri formasına görə / Asian countries by shape
+[ ] | text | Ölkəni pul vahidinə görə tap / Guess the country by its currency
+[ ] | flag | Afrika bayraqları / Flags of Africa
+[ ] | shape | Adalar formasına görə (ölkə-adalar) / Island nations by shape
+[ ] | text | Bu dil harada danışılır? / Where is this language spoken?
+[ ] | flag | Amerika qitəsi bayraqları / Flags of the Americas

@@ -10,6 +10,8 @@
    Читай через Google Drive `read_file_content`/`download_file_content`, пиши файл без пробелов и переносов.
 3. `pip install -q --break-system-packages faster-whisper` ; `cd $E/_toolkit && unzip -q -o infographics_assets.zip`.
 
+> **С 16.11.2026 действует режим 3 видео в день на каждом канале — см. `INSTRUKCIYA_3_V_DEN.md` (расписание, викторины, три отдельные задачи). Таблица ниже — старая, только для справки.**
+
 ## 1. Что делаем за ночь
 | № | Канал (бренд Metricool) | Что | Голос | Время публикации (Москва) |
 |---|---|---|---|---|

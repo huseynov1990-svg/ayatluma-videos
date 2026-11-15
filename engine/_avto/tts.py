@@ -3,10 +3,16 @@ import json,sys,base64,urllib.request,subprocess
 import os
 key=open(os.path.join(os.path.dirname(os.path.abspath(__file__)),'..','.secrets','gemini_key.txt')).read().strip()
 model,voice,style,text,out=sys.argv[1:6]
-part={"text":text}
-if style.strip(): part["speech_metadata"]={"style":style}
-body={"contents":[{"role":"user","parts":[part]}],
- "generationConfig":{"responseModalities":["AUDIO"],"speechConfig":{"voiceConfig":{"voice":voice}}}}
+if model.startswith("gemini-2.5"):
+    # starye modeli: net speech_metadata -> stil kak vvodnaya fraza, golos cherez prebuiltVoiceConfig
+    txt=(f"Read aloud in this style ({style.strip()}). Read ONLY the text after the colon:\n\n"+text) if style.strip() else text
+    body={"contents":[{"role":"user","parts":[{"text":txt}]}],
+     "generationConfig":{"responseModalities":["AUDIO"],"speechConfig":{"voiceConfig":{"prebuiltVoiceConfig":{"voiceName":voice}}}}}
+else:
+    part={"text":text}
+    if style.strip(): part["speech_metadata"]={"style":style}
+    body={"contents":[{"role":"user","parts":[part]}],
+     "generationConfig":{"responseModalities":["AUDIO"],"speechConfig":{"voiceConfig":{"voice":voice}}}}
 req=urllib.request.Request(f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",data=json.dumps(body).encode(),headers={"Content-Type":"application/json","x-goog-api-key":key})
 d=json.load(urllib.request.urlopen(req,timeout=180))
 b=base64.b64decode(d["candidates"][0]["content"]["parts"][0]["inlineData"]["data"])

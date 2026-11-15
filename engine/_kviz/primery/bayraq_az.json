@@ -1,0 +1,151 @@
+{
+ "kind": "country",
+ "lang": "az",
+ "brand": "@Tarixin_izi",
+ "voice": "Puck",
+ "style": "An energetic quiz-show host for a viral geography channel, speaking Azerbaijani. Bright, playful, confident male voice, like a game-show host teasing the player. Big energy on the intro and every answer, a little suspense before each answer. Native Azerbaijani from Baku, clear standard pronunciation. Clear pauses at every empty line.",
+ "music": "/home/claude/ayatluma-videos/engine/zvuki/muzyka/Crossing-the-Chasm.mp3",
+ "header": "Bayrağa görə tap · 2-ci səviyyə",
+ "intro_title": [
+  "Bayrağı tap",
+  "15 ölkə · asandan çətinə"
+ ],
+ "levels": {
+  "easy": "ASAN",
+  "medium": "ORTA",
+  "hard": "ÇƏTİN"
+ },
+ "answer_label": "CAVAB",
+ "outro_title": "15-dən neçə?",
+ "outro_sub": "Nəticəni şərhlərdə yaz",
+ "subscribe": "Abunə ol",
+ "intro_voice": "On beş bayraq… son üçünü demək olar ki, heç kim tapmır. Sən tapa bilərsənmi? Xallarını say. Başlayaq!",
+ "outro_voice": "Hə… neçəsini tapdın? On beşdən neçə — şərhlərdə yaz. Və abunə ol: hər gün yeni test!",
+ "cover_lines": [
+  "Son 3 bayrağı heç kim tapmır",
+  "Sən tapa bilərsən? 15/15"
+ ],
+ "out": "TARIXIN_KVIZ_bayraq2_AZ",
+ "items": [
+  {
+   "mode": "flag",
+   "iso2": "it",
+   "answer": "İtaliya",
+   "level": "easy",
+   "q_voice": "Bir.",
+   "a_voice": "Bu… İtaliya!"
+  },
+  {
+   "mode": "flag",
+   "iso2": "mx",
+   "answer": "Meksika",
+   "level": "easy",
+   "q_voice": "İki.",
+   "a_voice": "Bu… Meksika!"
+  },
+  {
+   "mode": "flag",
+   "iso2": "cn",
+   "answer": "Çin",
+   "level": "easy",
+   "q_voice": "Üç.",
+   "a_voice": "Bu… Çin!"
+  },
+  {
+   "mode": "flag",
+   "iso2": "se",
+   "answer": "İsveç",
+   "level": "easy",
+   "q_voice": "Dörd.",
+   "a_voice": "Bu… İsveç!"
+  },
+  {
+   "mode": "flag",
+   "iso2": "eg",
+   "answer": "Misir",
+   "level": "easy",
+   "q_voice": "Beş.",
+   "a_voice": "Bu… Misir!"
+  },
+  {
+   "mode": "flag",
+   "iso2": "ge",
+   "answer": "Gürcüstan",
+   "level": "medium",
+   "q_voice": "İndi çətinləşir. Altı.",
+   "a_voice": "Bu… Gürcüstan!"
+  },
+  {
+   "mode": "flag",
+   "iso2": "pk",
+   "answer": "Pakistan",
+   "level": "medium",
+   "q_voice": "Yeddi.",
+   "a_voice": "Bu… Pakistan!"
+  },
+  {
+   "mode": "flag",
+   "iso2": "uz",
+   "answer": "Özbəkistan",
+   "level": "medium",
+   "q_voice": "Səkkiz.",
+   "a_voice": "Bu… Özbəkistan!"
+  },
+  {
+   "mode": "flag",
+   "iso2": "za",
+   "answer": "Cənubi Afrika",
+   "level": "medium",
+   "q_voice": "Doqquz.",
+   "a_voice": "Bu… Cənubi Afrika!"
+  },
+  {
+   "mode": "flag",
+   "iso2": "vn",
+   "answer": "Vyetnam",
+   "level": "medium",
+   "q_voice": "On.",
+   "a_voice": "Bu… Vyetnam!"
+  },
+  {
+   "mode": "flag",
+   "iso2": "lk",
+   "answer": "Şri-Lanka",
+   "level": "hard",
+   "q_voice": "Bunları yalnız əsl bilici tapar. On bir.",
+   "a_voice": "Bu… Şri-Lanka!"
+  },
+  {
+   "mode": "flag",
+   "iso2": "kg",
+   "answer": "Qırğızıstan",
+   "level": "hard",
+   "q_voice": "On iki.",
+   "a_voice": "Bu… Qırğızıstan!"
+  },
+  {
+   "mode": "flag",
+   "iso2": "mz",
+   "answer": "Mozambik",
+   "level": "hard",
+   "q_voice": "On üç.",
+   "a_voice": "Bu… Mozambik!"
+  },
+  {
+   "mode": "flag",
+   "iso2": "cy",
+   "answer": "Kipr",
+   "level": "hard",
+   "q_voice": "On dörd.",
+   "a_voice": "Bu… Kipr!"
+  },
+  {
+   "mode": "flag",
+   "iso2": "sc",
+   "answer": "Seyşel adaları",
+   "level": "hard",
+   "q_voice": "On beş.",
+   "a_voice": "Bu… Seyşel adaları!"
+  }
+ ]
+}
