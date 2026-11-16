@@ -32,120 +32,121 @@
    "iso2": "it",
    "answer": "Italy",
    "level": "easy",
-   "q_voice": "One.",
-   "a_voice": "It's… Italy!"
+   "q_voice": "",
+   "a_voice": "Italy!"
   },
   {
    "mode": "flag",
    "iso2": "mx",
    "answer": "Mexico",
    "level": "easy",
-   "q_voice": "Two.",
-   "a_voice": "It's… Mexico!"
+   "q_voice": "",
+   "a_voice": "Mexico!"
   },
   {
    "mode": "flag",
    "iso2": "cn",
    "answer": "China",
    "level": "easy",
-   "q_voice": "Three.",
-   "a_voice": "It's… China!"
+   "q_voice": "",
+   "a_voice": "China!"
   },
   {
    "mode": "flag",
    "iso2": "se",
    "answer": "Sweden",
    "level": "easy",
-   "q_voice": "Four.",
-   "a_voice": "It's… Sweden!"
+   "q_voice": "",
+   "a_voice": "Sweden!"
   },
   {
    "mode": "flag",
    "iso2": "eg",
    "answer": "Egypt",
    "level": "easy",
-   "q_voice": "Five.",
-   "a_voice": "It's… Egypt!"
+   "q_voice": "",
+   "a_voice": "Egypt!"
   },
   {
    "mode": "flag",
    "iso2": "ge",
    "answer": "Georgia",
    "level": "medium",
-   "q_voice": "Now it gets harder. Six.",
-   "a_voice": "It's… Georgia!"
+   "q_voice": "Now it gets harder!",
+   "a_voice": "Georgia!"
   },
   {
    "mode": "flag",
    "iso2": "pk",
    "answer": "Pakistan",
    "level": "medium",
-   "q_voice": "Seven.",
-   "a_voice": "It's… Pakistan!"
+   "q_voice": "",
+   "a_voice": "Pakistan!"
   },
   {
    "mode": "flag",
    "iso2": "uz",
    "answer": "Uzbekistan",
    "level": "medium",
-   "q_voice": "Eight.",
-   "a_voice": "It's… Uzbekistan!"
+   "q_voice": "",
+   "a_voice": "Uzbekistan!"
   },
   {
    "mode": "flag",
    "iso2": "za",
    "answer": "South Africa",
    "level": "medium",
-   "q_voice": "Nine.",
-   "a_voice": "It's… South Africa!"
+   "q_voice": "",
+   "a_voice": "South Africa!"
   },
   {
    "mode": "flag",
    "iso2": "vn",
    "answer": "Vietnam",
    "level": "medium",
-   "q_voice": "Ten.",
-   "a_voice": "It's… Vietnam!"
+   "q_voice": "",
+   "a_voice": "Vietnam!"
   },
   {
    "mode": "flag",
    "iso2": "lk",
    "answer": "Sri Lanka",
    "level": "hard",
-   "q_voice": "Only true experts get these. Eleven.",
-   "a_voice": "It's… Sri Lanka!"
+   "q_voice": "Only true experts get these!",
+   "a_voice": "Sri Lanka!"
   },
   {
    "mode": "flag",
    "iso2": "kg",
    "answer": "Kyrgyzstan",
    "level": "hard",
-   "q_voice": "Twelve.",
-   "a_voice": "It's… Kyrgyzstan!"
+   "q_voice": "",
+   "a_voice": "Kyrgyzstan!"
   },
   {
    "mode": "flag",
    "iso2": "mz",
    "answer": "Mozambique",
    "level": "hard",
-   "q_voice": "Thirteen.",
-   "a_voice": "It's… Mozambique!"
+   "q_voice": "",
+   "a_voice": "Mozambique!"
   },
   {
    "mode": "flag",
    "iso2": "cy",
    "answer": "Cyprus",
    "level": "hard",
-   "q_voice": "Fourteen.",
-   "a_voice": "It's… Cyprus!"
+   "q_voice": "",
+   "a_voice": "Cyprus!"
   },
   {
    "mode": "flag",
    "iso2": "sc",
    "answer": "Seychelles",
    "level": "hard",
-   "q_voice": "Fifteen.",
-   "a_voice": "It's… Seychelles!"
+   "q_voice": "",
+   "a_voice": "Seychelles!"
   }
- ]
+ ],
+ "tts_model": "gemini-2.5-flash-preview-tts"
 }

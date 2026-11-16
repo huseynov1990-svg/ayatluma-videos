@@ -32,120 +32,121 @@
    "iso2": "it",
    "answer": "İtaliya",
    "level": "easy",
-   "q_voice": "Bir.",
-   "a_voice": "Bu… İtaliya!"
+   "q_voice": "",
+   "a_voice": "İtaliya!"
   },
   {
    "mode": "flag",
    "iso2": "mx",
    "answer": "Meksika",
    "level": "easy",
-   "q_voice": "İki.",
-   "a_voice": "Bu… Meksika!"
+   "q_voice": "",
+   "a_voice": "Meksika!"
   },
   {
    "mode": "flag",
    "iso2": "cn",
    "answer": "Çin",
    "level": "easy",
-   "q_voice": "Üç.",
-   "a_voice": "Bu… Çin!"
+   "q_voice": "",
+   "a_voice": "Çin!"
   },
   {
    "mode": "flag",
    "iso2": "se",
    "answer": "İsveç",
    "level": "easy",
-   "q_voice": "Dörd.",
-   "a_voice": "Bu… İsveç!"
+   "q_voice": "",
+   "a_voice": "İsveç!"
   },
   {
    "mode": "flag",
    "iso2": "eg",
    "answer": "Misir",
    "level": "easy",
-   "q_voice": "Beş.",
-   "a_voice": "Bu… Misir!"
+   "q_voice": "",
+   "a_voice": "Misir!"
   },
   {
    "mode": "flag",
    "iso2": "ge",
    "answer": "Gürcüstan",
    "level": "medium",
-   "q_voice": "İndi çətinləşir. Altı.",
-   "a_voice": "Bu… Gürcüstan!"
+   "q_voice": "İndi çətinləşir!",
+   "a_voice": "Gürcüstan!"
   },
   {
    "mode": "flag",
    "iso2": "pk",
    "answer": "Pakistan",
    "level": "medium",
-   "q_voice": "Yeddi.",
-   "a_voice": "Bu… Pakistan!"
+   "q_voice": "",
+   "a_voice": "Pakistan!"
   },
   {
    "mode": "flag",
    "iso2": "uz",
    "answer": "Özbəkistan",
    "level": "medium",
-   "q_voice": "Səkkiz.",
-   "a_voice": "Bu… Özbəkistan!"
+   "q_voice": "",
+   "a_voice": "Özbəkistan!"
   },
   {
    "mode": "flag",
    "iso2": "za",
    "answer": "Cənubi Afrika",
    "level": "medium",
-   "q_voice": "Doqquz.",
-   "a_voice": "Bu… Cənubi Afrika!"
+   "q_voice": "",
+   "a_voice": "Cənubi Afrika!"
   },
   {
    "mode": "flag",
    "iso2": "vn",
    "answer": "Vyetnam",
    "level": "medium",
-   "q_voice": "On.",
-   "a_voice": "Bu… Vyetnam!"
+   "q_voice": "",
+   "a_voice": "Vyetnam!"
   },
   {
    "mode": "flag",
    "iso2": "lk",
    "answer": "Şri-Lanka",
    "level": "hard",
-   "q_voice": "Bunları yalnız əsl bilici tapar. On bir.",
-   "a_voice": "Bu… Şri-Lanka!"
+   "q_voice": "Bunları yalnız əsl bilici tapar!",
+   "a_voice": "Şri-Lanka!"
   },
   {
    "mode": "flag",
    "iso2": "kg",
    "answer": "Qırğızıstan",
    "level": "hard",
-   "q_voice": "On iki.",
-   "a_voice": "Bu… Qırğızıstan!"
+   "q_voice": "",
+   "a_voice": "Qırğızıstan!"
   },
   {
    "mode": "flag",
    "iso2": "mz",
    "answer": "Mozambik",
    "level": "hard",
-   "q_voice": "On üç.",
-   "a_voice": "Bu… Mozambik!"
+   "q_voice": "",
+   "a_voice": "Mozambik!"
   },
   {
    "mode": "flag",
    "iso2": "cy",
    "answer": "Kipr",
    "level": "hard",
-   "q_voice": "On dörd.",
-   "a_voice": "Bu… Kipr!"
+   "q_voice": "",
+   "a_voice": "Kipr!"
   },
   {
    "mode": "flag",
    "iso2": "sc",
    "answer": "Seyşel adaları",
    "level": "hard",
-   "q_voice": "On beş.",
-   "a_voice": "Bu… Seyşel adaları!"
+   "q_voice": "",
+   "a_voice": "Seyşel adaları!"
   }
- ]
+ ],
+ "tts_model": "gemini-2.5-flash-preview-tts"
 }

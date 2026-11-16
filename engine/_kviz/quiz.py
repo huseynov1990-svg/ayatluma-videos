@@ -415,14 +415,22 @@ def check_voice(cfg, segs, lines):
 def build(ep):
     cfg = json.load(open(os.path.join(ep, 'quiz.json'), encoding='utf-8'))
     items = cfg['items']; total = len(items); lang = cfg['lang']
-    lines = [cfg['intro_voice']]
-    for it in items: lines += [it['q_voice'], it['a_voice']]
+    lines = [cfg['intro_voice']]; qi = []; ai = []
+    for it in items:
+        if it.get('q_voice', '').strip(): qi.append(len(lines)); lines.append(it['q_voice'])
+        else: qi.append(None)
+        ai.append(len(lines)); lines.append(it['a_voice'])
     lines.append(cfg['outro_voice'])
-    segs = voice_lines(cfg, ep, lines)
-    check_voice(cfg, segs, lines)
+    segs0 = voice_lines(cfg, ep, lines)
+    check_voice(cfg, segs0, lines)
+    SIL = np.zeros(int(SR * 0.05), np.float32)
+    segs = [segs0[0]]
+    for k in range(len(items)):
+        segs.append(segs0[qi[k]] if qi[k] is not None else SIL); segs.append(segs0[ai[k]])
+    segs.append(segs0[-1])
     bg = make_bg(cfg, ep)
     fd = os.path.join(ep, '_q', 'frames'); shutil.rmtree(fd, ignore_errors=True); os.makedirs(fd)
-    seq = []; ev = []; t = 0.0; cache = {}
+    seq = []; ev = []; t = 0.0; cache = {}; tl = []
     def add(im, dur):
         nonlocal t
         p = os.path.join(fd, f'{len(seq):04d}.png'); im.convert('RGB').save(p); seq.append((p, dur)); t += dur
@@ -442,11 +450,12 @@ def build(ep):
             read = max(read, 0.6); add(mk(CD, False), read)
         for s in range(CD, 0, -1):
             ev.append(('tick', t, s == 1)); add(mk(s, False), 1.0)
-        ev.append(('ding', t)); ev.append(('v', t + 0.25, av))
+        ev.append(('ding', t)); ev.append(('v', t + 0.25, av)); tl.append((n, round(t, 2), it.get('answer') or it['options'][it['correct']]))
         add(mk(0, True), dl(av) + (1.6 if it['mode'] == 'text' else 1.0))
     ev.append(('v', t + 0.3, segs[-1]))
     add(frame_outro(cfg, bg), dl(segs[-1]) + 1.6)
     dur = t
+    json.dump(tl, open(os.path.join(ep, '_q', 'timeline.json'), 'w'), ensure_ascii=False)
     print(f'» dlitelnost {dur:.1f} s')
     if dur > 178: raise SystemExit(f'SLISHKOM DLINNO: {dur:.1f} s (nado ≤ 175) — ubrat voprosy')
     # zvuk
@@ -469,6 +478,8 @@ def build(ep):
         mus *= duck
         fade = int(SR * 2); mus[-fade:] *= np.linspace(1, 0, fade)
     vpk = np.abs(vbuf).max() or 1; vbuf *= 0.85 / vpk
+    with wave.open(os.path.join(ep, '_q', 'voice_only.wav'), 'wb') as w:
+        w.setnchannels(1); w.setsampwidth(2); w.setframerate(SR); w.writeframes((np.clip(vbuf, -1, 1) * 32767).astype(np.int16).tobytes())
     mix = vbuf + sbuf * 0.8 + mus
     mix = np.tanh(mix * 1.1) * 0.95
     wav = os.path.join(ep, '_q', 'audio.wav')
@@ -509,3 +520,24 @@ def cover_quiz(cfg, bg, items, out, cache):
 
 if __name__ == '__main__':
     build(os.path.abspath(sys.argv[1]))
+    if verify(os.path.abspath(sys.argv[1])): sys.exit(5)
+
+
+def verify(ep):
+    """Proverka: chto zvuchit v kazhdyy moment otveta (dlya otchyota pered publikaciey)."""
+    cfg = json.load(open(os.path.join(ep, 'quiz.json'), encoding='utf-8'))
+    tl = json.load(open(os.path.join(ep, '_q', 'timeline.json'), encoding='utf-8'))
+    a = read_audio(os.path.join(ep, '_q', 'voice_only.wav'))
+    bad = 0
+    for n, t, ans in tl:
+        x = a[int(t * SR):int((t + 2.6) * SR)][::3].copy()
+        sg, _ = whisper().transcribe(x, language=cfg['lang'], beam_size=5)
+        got = ' '.join(q.text.strip() for q in sg)
+        import difflib
+        A = ''.join(norm_words(ans)); G = ''.join(norm_words(got))
+        r = max([difflib.SequenceMatcher(None, A, G[i:i + len(A) + 2]).ratio() for i in range(0, max(1, len(G) - len(A) + 1))] or [0])
+        flag = 'OK ' if r >= 0.45 else 'PLOHO'
+        if r < 0.45: bad += 1
+        print(f'{flag} {n:2d} {t:6.1f}s  nado: {ans}  |  slyshno: {got}')
+    print('PROVERKA OTVETOV:', 'VSE OK' if bad == 0 else f'{bad} PLOHO — ne publikovat')
+    return bad
