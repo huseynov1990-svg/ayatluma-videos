@@ -1,0 +1,51 @@
+{
+ "channel_id": "UC-3TZ_7BHntBBmOcdjKdKVQ",
+ "wrong_number": {
+  "next_episode": 2,
+  "episodes": [
+   {
+    "ep": 1,
+    "title": "Locker 14",
+    "video_id": "jgsvLgOLUsA",
+    "published": "2026-11-13 23:00 MSK",
+    "summary": "1:12 AM, courier Eli Brooks (24, owes $1,800 rent, final notice) gets a call meant for another courier: take what's in locker 14 at Grand Street Station (code 7319) to the blue door on Pier Nine before 2 AM for $5,000, don't open it, don't call back. Locker holds a small heavy metal case with a yellow FRAGILE sticker; it hums. A man in a long grey coat watches; a text says 'Don't trust the man in grey.' Eli flees by bike to Pier Nine, 1:54 AM; the case is now also ticking.",
+    "vote": "OPEN (open the case) vs DELIVER (knock on the blue door)"
+   }
+  ],
+  "characters": {
+   "Eli Brooks": "24, courier, beanie, grey hoodie, yellow delivery bag",
+   "Man in grey": "long grey coat, hat, never speaks yet",
+   "The caller": "quiet fast male voice, unknown number"
+  }
+ },
+ "i_was_there": {
+  "next_episode": 2,
+  "episodes": [
+   {
+    "ep": 1,
+    "topic": "Titanic, April 14-15 1912",
+    "video_id": "an2fw_hsdRk",
+    "summary": "Ava, 19, third class, rescued in Collapsible D by Carpathia.",
+    "published": "2026-11-14 20:00 MSK"
+   }
+  ],
+  "topic_queue": [
+   "Building the Great Pyramid of Giza",
+   "Pompeii, 79 AD",
+   "The Hindenburg, 1937",
+   "The 33 Chilean miners rescued, 2010",
+   "Apollo 13, 1970",
+   "First ascent of Everest, 1953",
+   "The Great Fire of London, 1666",
+   "Krakatoa, 1883",
+   "San Francisco earthquake, 1906",
+   "The Mary Celeste mystery, 1872",
+   "The lost colony of Roanoke, 1590",
+   "Fall of the Berlin Wall, 1989",
+   "California Gold Rush, 1849",
+   "The Tunguska event, 1908",
+   "Moon landing, 1969",
+   "Building the Brooklyn Bridge, 1883"
+  ]
+ }
+}
