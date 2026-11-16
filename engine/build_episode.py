@@ -7,6 +7,9 @@ E = os.path.dirname(os.path.abspath(__file__)); ep = os.path.abspath(sys.argv[1]
 music = sys.argv[4] if len(sys.argv) > 4 and not sys.argv[4].startswith('--') else os.path.join(E, 'zvuki', 'muzyka', 'Desert-Fox-Underscore.mp3')
 lang = sys.argv[sys.argv.index('--lang') + 1] if '--lang' in sys.argv else 'ru'
 MAXDUR = 175.0
+# PRAVILO POLZOVATELYA (16.11.2026): v religii (AYAT LUMA, Ruhun Qidasi) MUZYKI NET — tolko golos i zvuki
+_meta = json.load(open(os.path.join(ep, 'meta.json'), encoding='utf-8'))
+if _meta.get('religion') or any(k in _meta.get('out', '').upper() for k in ('AYAT', 'RUHUN')): music = 'none'
 def run(c): print('>>', ' '.join(c[:3]), flush=True); subprocess.run(c, check=True, stdin=subprocess.DEVNULL)
 def dur(f): return float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', f], capture_output=True, text=True).stdout)
 vo = os.path.join(ep, 'voice', 'voiceover.wav')

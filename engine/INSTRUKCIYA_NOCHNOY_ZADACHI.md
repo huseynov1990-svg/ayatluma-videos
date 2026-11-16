@@ -41,7 +41,7 @@ python3 $E/build_episode.py <папка> <Голос> "<стиль>" [музык
 ```
 - Стиль голоса (ВСЕГДА так, по-английски): `calm, warm and unhurried, like a gentle story before sleep, even pace from start to end`
 - Код выхода 3 = озвучка длиннее 2:55 → сократи текст на 15–20% и запусти снова (папку voice перед этим не трогай, скрипт сам отложил длинный файл).
-- Музыка: утро `$E/zvuki/muzyka/Desert-Fox-Underscore.mp3`, вечер `$E/zvuki/muzyka/Crossing-the-Chasm.mp3`.
+- **МУЗЫКИ В РЕЛИГИИ НЕТ** (AYAT LUMA, Ruhun Qidası — правило пользователя 16.11.2026): только голос и звуки (swoosh, boom). build_episode.py сам выключает музыку для `out` с AYAT/RUHUN. Голоса — только мужские. Музыка — только для Tarixin izi / Cartopolis.
 - Проверка перед загрузкой: вытащи 5 кадров (`ffmpeg -ss T -i ..._PUBLISH.mp4 -frames:v 1`), посмотри их (Read). Текст читается, обложка красивая, ничего не сломано.
 
 ## 5. Ruhun Qidası (ролик №3)

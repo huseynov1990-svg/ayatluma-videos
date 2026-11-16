@@ -17,7 +17,9 @@ for p in paras:
     k += len(p)
 starts = starts[1:]  # pervyy abzats - boom v nachale
 dur = float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', vid], capture_output=True, text=True).stdout)
-inp = ['-i', vid, '-stream_loop', '-1', '-i', music, '-i', boom] + sum([['-i', swoosh] for _ in starts], [])
+mus_in = ['-f', 'lavfi', '-i', 'anullsrc=r=48000:cl=stereo'] if music == 'none' else ['-stream_loop', '-1', '-i', music]
+if music == 'none': print('» BEZ MUZYKI (religiya)')
+inp = ['-i', vid] + mus_in + ['-i', boom] + sum([['-i', swoosh] for _ in starts], [])
 f = '[0:a]asplit=2[v][sc];[1:a]atrim=0:%.2f,volume=%.1fdB,afade=t=in:d=2,afade=t=out:st=%.2f:d=3[m0];' % (dur, mdb, max(0, dur - 3))
 f += '[m0][sc]sidechaincompress=threshold=0.04:ratio=6:attack=20:release=400[m];[2:a]volume=-10dB[b];'
 mix = ['[v]', '[m]', '[b]']
