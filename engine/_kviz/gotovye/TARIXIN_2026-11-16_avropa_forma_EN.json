@@ -1,0 +1,152 @@
+{
+ "kind": "country",
+ "lang": "en",
+ "brand": "",
+ "voice": "Laomedeia",
+ "style": "An energetic, friendly female quiz-show host for a viral geography channel, speaking American English. Bright, playful and confident, a little suspense before each answer. Clear pauses at every empty line.",
+ "music": "/home/claude/ayatluma-videos/engine/zvuki/muzyka/Crossing-the-Chasm.mp3",
+ "header": "Europe · Guess the country by shape",
+ "intro_title": [
+  "Guess the country",
+  "15 European shapes · easy to hard"
+ ],
+ "levels": {
+  "easy": "EASY",
+  "medium": "MEDIUM",
+  "hard": "HARD"
+ },
+ "answer_label": "ANSWER",
+ "outro_title": "How many out of 15?",
+ "outro_sub": "Write your score in the comments",
+ "subscribe": "Subscribe",
+ "intro_voice": "Fifteen European countries… only by their outline. Almost nobody gets the last five. Can you? Keep score. Let's go!",
+ "outro_voice": "So… how many did you get? Write your score out of fifteen in the comments. And subscribe for a new quiz every day!",
+ "cover_lines": [
+  "Nobody gets the last 5 countries",
+  "Do you know Europe by its shape?"
+ ],
+ "out": "CARTO_QUIZ_europe_shapes_EN",
+ "items": [
+  {
+   "mode": "shape",
+   "iso": "FRA",
+   "answer": "France",
+   "level": "easy",
+   "q_voice": "One.",
+   "a_voice": "It's… France!"
+  },
+  {
+   "mode": "shape",
+   "iso": "ESP",
+   "answer": "Spain",
+   "level": "easy",
+   "q_voice": "Two.",
+   "a_voice": "It's… Spain!"
+  },
+  {
+   "mode": "shape",
+   "iso": "ISL",
+   "answer": "Iceland",
+   "level": "easy",
+   "q_voice": "Three.",
+   "a_voice": "It's… Iceland!"
+  },
+  {
+   "mode": "shape",
+   "iso": "UKR",
+   "answer": "Ukraine",
+   "level": "easy",
+   "q_voice": "Four.",
+   "a_voice": "It's… Ukraine!"
+  },
+  {
+   "mode": "shape",
+   "iso": "FIN",
+   "answer": "Finland",
+   "level": "easy",
+   "q_voice": "Five.",
+   "a_voice": "It's… Finland!"
+  },
+  {
+   "mode": "shape",
+   "iso": "POL",
+   "answer": "Poland",
+   "level": "medium",
+   "q_voice": "Now it gets harder. Six.",
+   "a_voice": "It's… Poland!"
+  },
+  {
+   "mode": "shape",
+   "iso": "IRL",
+   "answer": "Ireland",
+   "level": "medium",
+   "q_voice": "Seven.",
+   "a_voice": "It's… Ireland!"
+  },
+  {
+   "mode": "shape",
+   "iso": "CHE",
+   "answer": "Switzerland",
+   "level": "medium",
+   "q_voice": "Eight.",
+   "a_voice": "It's… Switzerland!"
+  },
+  {
+   "mode": "shape",
+   "iso": "ROU",
+   "answer": "Romania",
+   "level": "medium",
+   "q_voice": "Nine.",
+   "a_voice": "It's… Romania!"
+  },
+  {
+   "mode": "shape",
+   "iso": "HRV",
+   "answer": "Croatia",
+   "level": "medium",
+   "q_voice": "Ten.",
+   "a_voice": "It's… Croatia!"
+  },
+  {
+   "mode": "shape",
+   "iso": "AUT",
+   "answer": "Austria",
+   "level": "hard",
+   "q_voice": "Only true experts get these. Eleven.",
+   "a_voice": "It's… Austria!"
+  },
+  {
+   "mode": "shape",
+   "iso": "BLR",
+   "answer": "Belarus",
+   "level": "hard",
+   "q_voice": "Twelve.",
+   "a_voice": "It's… Belarus!"
+  },
+  {
+   "mode": "shape",
+   "iso": "CZE",
+   "answer": "Czechia",
+   "level": "hard",
+   "q_voice": "Thirteen.",
+   "a_voice": "It's… Czechia!"
+  },
+  {
+   "mode": "shape",
+   "iso": "BGR",
+   "answer": "Bulgaria",
+   "level": "hard",
+   "q_voice": "Fourteen.",
+   "a_voice": "It's… Bulgaria!"
+  },
+  {
+   "mode": "shape",
+   "iso": "SVN",
+   "answer": "Slovenia",
+   "level": "hard",
+   "q_voice": "Fifteen.",
+   "a_voice": "It's… Slovenia!"
+  }
+ ],
+ "countdown": 4
+}

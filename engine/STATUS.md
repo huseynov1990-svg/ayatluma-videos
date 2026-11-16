@@ -32,3 +32,10 @@
   - УТРО «Как появился азан» (Сунны Пророка · 4, Charon, 2:48) → 18.11 07:00 (17.11 07:00 уже занят «4 дуа»). https://app.metricool.com/planner/calendar?blogId=7638352&openWithPostUuid=901556152748623890 . Сценарий: scenarii/AYAT_2026-11-18_utro.* — для Ruhun НЕ переводить (азан уже был на Ruhun), помечен _RUHUN_GOTOVO.
   - «Сабит ибн Кайс (49:2)» НЕ делал: уже был на канале (IG Reel с тегами «сабит ибн кайс», 15.11) → [было на канале].
   - Расход: TTS рассказов 8 запросов (gemini-3.8-flash-tts), TTS викторины 1 запрос, картинки 4 (фон и обложка викторины, 2 обложки рассказов); фоны рассказов — Pixabay.
+- 2026-11-16 ~13:05 МСК (задача Tarixin izi + Cartopolis):
+  - Викторина «Paytaxtı tap · 15 ölkə» (text, Puck, 2:33) → Tarixin izi 17.11 10:00, https://app.metricool.com/planner/calendar?blogId=8112733&openWithPostUuid=8994090768667459728 ; EN «Guess the capital» (Laomedeia, 2:47) → Cartopolis 17.11 16:00, https://app.metricool.com/planner/calendar?blogId=8113833&openWithPostUuid=9124230665857223902
+  - Викторина «Avropa · ölkəni formasına görə tap» (shape, Puck, 2:35) → Tarixin izi 17.11 15:00, https://app.metricool.com/planner/calendar?blogId=8112733&openWithPostUuid=-652031988981412357 ; EN «Europe by shape» (Laomedeia, 2:42) → Cartopolis 16.11 23:30, https://app.metricool.com/planner/calendar?blogId=8113833&openWithPostUuid=6643180998622530592
+  - Рассказ НЕ делался: слоты 18:00 Tarixin (16–18.11) и 21:00 Cartopolis (16–19.11) уже заняты. Следующий рассказ по очереди — Мексика 1846–48.
+  - ИСПРАВЛЕН quiz.py: старая нарезка озвучки по паузам резала ответы («Bu… Ukrayna!» уходило в следующий номер). Новый engine/_kviz/wsplit.py — нарезка по времени слов whisper (по кускам ≤ ~паузы), проверка «sovpadenie» теперь по-кусочно и по буквам (whisper пишет «12» вместо «On iki»). Проверено распознаванием каждого куска — все 4 ролика совпадают.
+  - Текстовые викторины: 15 вопросов с отсчётом 5 с не влезают (182 с) → `"countdown": 4`.
+  - Ключ Pixabay по id 1Lx58-… на Drive теперь старый неверный файл (_staroe_…) — новый ключ искать по имени pixabay_key.txt в AUTO_VIDEO.

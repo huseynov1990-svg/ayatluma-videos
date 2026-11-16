@@ -309,6 +309,7 @@ def norm_words(s):
     s = s.lower().replace('ё', 'е').replace('\ufdfa', ' ')
     return [w[:5] for w in re.findall(r'\w+', s)]
 
+GAPF = int(os.environ.get('QUIZ_GAPF', '9'))
 def split_by_words(wav, lines, lang):
     """Rezhem po vsem pauzam na melkie kuski, raspoznaem kazhdyy kusok otdelno,
     zatem optimalno (DP) raskladyvaem kuski po strokam teksta."""
@@ -323,7 +324,7 @@ def split_by_words(wav, lines, lang):
             run_s = 0; last = i
         else:
             run_s += 1
-            if start is not None and run_s == 9: ch.append([start, last]); start = None
+            if start is not None and run_s == GAPF: ch.append([start, last]); start = None
     if start is not None: ch.append([start, last])
     ch = [c for c in ch if (c[1] - c[0]) * 0.02 > 0.1]
     m, n = len(ch), len(lines)
@@ -371,7 +372,12 @@ def voice_lines(cfg, ep, lines):
     for att in range(2):
         w = os.path.join(vd, f'full_{att}.wav')
         if not os.path.exists(w): tts(cfg, '\n\n'.join(lines), w)
-        segs = split_by_words(w, lines, cfg['lang'])
+        segs = None
+        try:  # 1) razrez po vremeni slov (whisper word_timestamps) — tochnee
+            import wsplit
+            segs = wsplit.split_by_wordstamps(read_audio(w), SR, lines, cfg['lang'], whisper())
+        except Exception as ex: print('» wsplit oshibka:', ex)
+        if not segs: segs = split_by_words(w, lines, cfg['lang'])
         if segs: break
     if not segs:
         segs = []; G = 6
@@ -386,14 +392,22 @@ def voice_lines(cfg, ep, lines):
 
 def check_voice(cfg, segs, lines):
     m = whisper()
-    a = np.concatenate([np.concatenate([s, np.zeros(int(SR * 0.4), np.float32)]) for s in segs])
-    a16 = a[::3].astype(np.float32)
-    seg, _ = m.transcribe(a16, language=cfg['lang'], vad_filter=False)
-    got = ' '.join(s.text for s in seg).lower()
+    # kazhdyy kusok raspoznaem otdelno (na dlinnom audio whisper «uplyvaet», osobenno az)
+    parts = []
+    for s in segs:
+        x = np.concatenate([np.zeros(int(SR * 0.1), np.float32), np.asarray(s, np.float32), np.zeros(int(SR * 0.1), np.float32)])[::3]
+        sg, _ = m.transcribe(x, language=cfg['lang'], vad_filter=False, condition_on_previous_text=False)
+        parts.append(' '.join(q.text for q in sg))
+    got = ' '.join(parts).lower()
     norm = lambda s: re.findall(r'\w+', s.lower())
     exp = norm(' '.join(lines)); g = norm(got)
     import difflib
     r = difflib.SequenceMatcher(None, exp, g).ratio()
+    try:  # po bukvam (cifry → slova, ı/ə uproshcheny): whisper pishet «12» vmesto «On iki», «paytachtı» i t.p.
+        import wsplit
+        r2 = difflib.SequenceMatcher(None, wsplit._norm(' '.join(lines), cfg['lang']), wsplit._norm(got, cfg['lang']), autojunk=False).ratio()
+        print(f'» (po slovam {r:.2f}, po bukvam {r2:.2f})'); r = max(r, r2)
+    except Exception as ex: print('» norm oshibka', ex)
     print(f'» proverka ozvuchki: sovpadenie {r:.2f}')
     if r < 0.5: raise SystemExit('ozvuchka ne sovpadaet s tekstom — pereozvuchit')
 

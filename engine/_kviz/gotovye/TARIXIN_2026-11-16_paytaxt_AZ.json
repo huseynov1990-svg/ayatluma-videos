@@ -1,0 +1,227 @@
+{
+ "kind": "text",
+ "lang": "az",
+ "brand": "@Tarixin_izi",
+ "voice": "Puck",
+ "style": "An energetic quiz-show host for a viral geography channel, speaking Azerbaijani. Bright, playful, confident male voice, like a game-show host teasing the player. Big energy on the intro and every answer, a little suspense before each answer. Native Azerbaijani from Baku, clear standard pronunciation. Clear pauses at every empty line.",
+ "music": "/home/claude/ayatluma-videos/engine/zvuki/muzyka/Crossing-the-Chasm.mp3",
+ "header": "Paytaxtı tap · 15 ölkə",
+ "intro_title": [
+  "Paytaxtı tap",
+  "15 ölkə · asandan çətinə"
+ ],
+ "levels": {
+  "easy": "ASAN",
+  "medium": "ORTA",
+  "hard": "ÇƏTİN"
+ },
+ "answer_label": "CAVAB",
+ "outro_title": "15-dən neçə?",
+ "outro_sub": "Nəticəni şərhlərdə yaz",
+ "subscribe": "Abunə ol",
+ "intro_voice": "On beş ölkə, on beş paytaxt… sonuncu beşində demək olar ki, hamı səhv edir. Sən neçəsini tapacaqsan? Xallarını say. Başlayaq!",
+ "outro_voice": "Hə… neçəsini tapdın? On beşdən neçə — şərhlərdə yaz. Və abunə ol: hər gün yeni test!",
+ "cover_lines": [
+  "Son 5 paytaxtda hamı səhv edir",
+  "Sən 15/15 edə bilərsən?"
+ ],
+ "out": "TARIXIN_KVIZ_paytaxt_AZ",
+ "items": [
+  {
+   "mode": "text",
+   "level": "easy",
+   "q": "Rusiyanın paytaxtı hansıdır?",
+   "options": [
+    "Sankt-Peterburq",
+    "Moskva",
+    "Kazan"
+   ],
+   "correct": 1,
+   "q_voice": "Bir. Rusiyanın paytaxtı?",
+   "a_voice": "Moskva!"
+  },
+  {
+   "mode": "text",
+   "level": "easy",
+   "q": "ABŞ-ın paytaxtı hansıdır?",
+   "options": [
+    "Nyu-York",
+    "Los-Anceles",
+    "Vaşinqton"
+   ],
+   "correct": 2,
+   "q_voice": "İki. ABŞ-ın paytaxtı?",
+   "a_voice": "Vaşinqton!"
+  },
+  {
+   "mode": "text",
+   "level": "easy",
+   "q": "İranın paytaxtı hansıdır?",
+   "options": [
+    "Tehran",
+    "Təbriz",
+    "İsfahan"
+   ],
+   "correct": 0,
+   "q_voice": "Üç. İranın paytaxtı?",
+   "a_voice": "Tehran!"
+  },
+  {
+   "mode": "text",
+   "level": "easy",
+   "q": "Tailandın paytaxtı hansıdır?",
+   "options": [
+    "Pxuket",
+    "Banqkok",
+    "Çiangmay"
+   ],
+   "correct": 1,
+   "q_voice": "Dörd. Tailandın paytaxtı?",
+   "a_voice": "Banqkok!"
+  },
+  {
+   "mode": "text",
+   "level": "easy",
+   "q": "Belçikanın paytaxtı hansıdır?",
+   "options": [
+    "Antverpen",
+    "Brugge",
+    "Brüssel"
+   ],
+   "correct": 2,
+   "q_voice": "Beş. Belçikanın paytaxtı?",
+   "a_voice": "Brüssel!"
+  },
+  {
+   "mode": "text",
+   "level": "medium",
+   "q": "Mərakeşin paytaxtı hansıdır?",
+   "options": [
+    "Kasablanka",
+    "Rabat",
+    "Marrakeş"
+   ],
+   "correct": 1,
+   "q_voice": "İndi çətinləşir. Altı. Mərakeşin paytaxtı?",
+   "a_voice": "Rabat!"
+  },
+  {
+   "mode": "text",
+   "level": "medium",
+   "q": "Nigeriyanın paytaxtı hansıdır?",
+   "options": [
+    "Abuca",
+    "Laqos",
+    "Kano"
+   ],
+   "correct": 0,
+   "q_voice": "Yeddi. Nigeriyanın paytaxtı?",
+   "a_voice": "Abuca!"
+  },
+  {
+   "mode": "text",
+   "level": "medium",
+   "q": "Yeni Zelandiyanın paytaxtı hansıdır?",
+   "options": [
+    "Oklend",
+    "Kraystçerç",
+    "Vellinqton"
+   ],
+   "correct": 2,
+   "q_voice": "Səkkiz. Yeni Zelandiyanın paytaxtı?",
+   "a_voice": "Vellinqton!"
+  },
+  {
+   "mode": "text",
+   "level": "medium",
+   "q": "Kolumbiyanın paytaxtı hansıdır?",
+   "options": [
+    "Medelyin",
+    "Boqota",
+    "Kali"
+   ],
+   "correct": 1,
+   "q_voice": "Doqquz. Kolumbiyanın paytaxtı?",
+   "a_voice": "Boqota!"
+  },
+  {
+   "mode": "text",
+   "level": "medium",
+   "q": "Ekvadorun paytaxtı hansıdır?",
+   "options": [
+    "Kito",
+    "Quayakil",
+    "Kuenka"
+   ],
+   "correct": 0,
+   "q_voice": "On. Ekvadorun paytaxtı?",
+   "a_voice": "Kito!"
+  },
+  {
+   "mode": "text",
+   "level": "hard",
+   "q": "Myanmanın paytaxtı hansıdır?",
+   "options": [
+    "Yanqon",
+    "Mandalay",
+    "Neypyido"
+   ],
+   "correct": 2,
+   "q_voice": "Bunları yalnız əsl bilici tapar. On bir. Myanmanın paytaxtı?",
+   "a_voice": "Neypyido!"
+  },
+  {
+   "mode": "text",
+   "level": "hard",
+   "q": "Kot-d’İvuarın paytaxtı hansıdır?",
+   "options": [
+    "Abican",
+    "Yamusukro",
+    "Buake"
+   ],
+   "correct": 1,
+   "q_voice": "On iki. Kot-d’İvuarın paytaxtı?",
+   "a_voice": "Yamusukro!"
+  },
+  {
+   "mode": "text",
+   "level": "hard",
+   "q": "Tanzaniyanın paytaxtı hansıdır?",
+   "options": [
+    "Dodoma",
+    "Dar-es-Salam",
+    "Arusha"
+   ],
+   "correct": 0,
+   "q_voice": "On üç. Tanzaniyanın paytaxtı?",
+   "a_voice": "Dodoma!"
+  },
+  {
+   "mode": "text",
+   "level": "hard",
+   "q": "Monteneqronun paytaxtı hansıdır?",
+   "options": [
+    "Kotor",
+    "Budva",
+    "Podqoritsa"
+   ],
+   "correct": 2,
+   "q_voice": "On dörd. Monteneqronun paytaxtı?",
+   "a_voice": "Podqoritsa!"
+  },
+  {
+   "mode": "text",
+   "level": "hard",
+   "q": "Mavritaniyanın paytaxtı hansıdır?",
+   "options": [
+    "Nuadibu",
+    "Nuakşot",
+    "Atar"
+   ],
+   "correct": 1,
+   "q_voice": "On beş. Mavritaniyanın paytaxtı?",
+   "a_voice": "Nuakşot!"
+  }
+ ],
+ "countdown": 4
+}

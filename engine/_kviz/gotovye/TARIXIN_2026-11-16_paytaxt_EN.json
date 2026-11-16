@@ -1,0 +1,227 @@
+{
+ "kind": "text",
+ "lang": "en",
+ "brand": "",
+ "voice": "Laomedeia",
+ "style": "An energetic, friendly female quiz-show host for a viral geography channel, speaking American English. Bright, playful and confident, a little suspense before each answer. Clear pauses at every empty line.",
+ "music": "/home/claude/ayatluma-videos/engine/zvuki/muzyka/Crossing-the-Chasm.mp3",
+ "header": "Guess the capital · 15 countries",
+ "intro_title": [
+  "Guess the capital",
+  "15 countries · easy to hard"
+ ],
+ "levels": {
+  "easy": "EASY",
+  "medium": "MEDIUM",
+  "hard": "HARD"
+ },
+ "answer_label": "ANSWER",
+ "outro_title": "How many out of 15?",
+ "outro_sub": "Write your score in the comments",
+ "subscribe": "Subscribe",
+ "intro_voice": "Fifteen countries, fifteen capitals… almost everyone gets the last five wrong. How many will you get? Keep score. Let's go!",
+ "outro_voice": "So… how many did you get? Write your score out of fifteen in the comments. And subscribe for a new quiz every day!",
+ "cover_lines": [
+  "Everyone fails the last 5",
+  "Can you name all 15 capitals?"
+ ],
+ "out": "CARTO_QUIZ_capitals_EN",
+ "items": [
+  {
+   "mode": "text",
+   "level": "easy",
+   "q": "What is the capital of Russia?",
+   "options": [
+    "Saint Petersburg",
+    "Moscow",
+    "Kazan"
+   ],
+   "correct": 1,
+   "q_voice": "One. The capital of Russia?",
+   "a_voice": "Moscow!"
+  },
+  {
+   "mode": "text",
+   "level": "easy",
+   "q": "What is the capital of the USA?",
+   "options": [
+    "New York",
+    "Los Angeles",
+    "Washington, D.C."
+   ],
+   "correct": 2,
+   "q_voice": "Two. The capital of the USA?",
+   "a_voice": "Washington, D.C.!"
+  },
+  {
+   "mode": "text",
+   "level": "easy",
+   "q": "What is the capital of Iran?",
+   "options": [
+    "Tehran",
+    "Tabriz",
+    "Isfahan"
+   ],
+   "correct": 0,
+   "q_voice": "Three. The capital of Iran?",
+   "a_voice": "Tehran!"
+  },
+  {
+   "mode": "text",
+   "level": "easy",
+   "q": "What is the capital of Thailand?",
+   "options": [
+    "Phuket",
+    "Bangkok",
+    "Chiang Mai"
+   ],
+   "correct": 1,
+   "q_voice": "Four. The capital of Thailand?",
+   "a_voice": "Bangkok!"
+  },
+  {
+   "mode": "text",
+   "level": "easy",
+   "q": "What is the capital of Belgium?",
+   "options": [
+    "Antwerp",
+    "Bruges",
+    "Brussels"
+   ],
+   "correct": 2,
+   "q_voice": "Five. The capital of Belgium?",
+   "a_voice": "Brussels!"
+  },
+  {
+   "mode": "text",
+   "level": "medium",
+   "q": "What is the capital of Morocco?",
+   "options": [
+    "Casablanca",
+    "Rabat",
+    "Marrakesh"
+   ],
+   "correct": 1,
+   "q_voice": "Now it gets harder. Six. The capital of Morocco?",
+   "a_voice": "Rabat!"
+  },
+  {
+   "mode": "text",
+   "level": "medium",
+   "q": "What is the capital of Nigeria?",
+   "options": [
+    "Abuja",
+    "Lagos",
+    "Kano"
+   ],
+   "correct": 0,
+   "q_voice": "Seven. The capital of Nigeria?",
+   "a_voice": "Abuja!"
+  },
+  {
+   "mode": "text",
+   "level": "medium",
+   "q": "What is the capital of New Zealand?",
+   "options": [
+    "Auckland",
+    "Christchurch",
+    "Wellington"
+   ],
+   "correct": 2,
+   "q_voice": "Eight. The capital of New Zealand?",
+   "a_voice": "Wellington!"
+  },
+  {
+   "mode": "text",
+   "level": "medium",
+   "q": "What is the capital of Colombia?",
+   "options": [
+    "Medellín",
+    "Bogotá",
+    "Cali"
+   ],
+   "correct": 1,
+   "q_voice": "Nine. The capital of Colombia?",
+   "a_voice": "Bogotá!"
+  },
+  {
+   "mode": "text",
+   "level": "medium",
+   "q": "What is the capital of Ecuador?",
+   "options": [
+    "Quito",
+    "Guayaquil",
+    "Cuenca"
+   ],
+   "correct": 0,
+   "q_voice": "Ten. The capital of Ecuador?",
+   "a_voice": "Quito!"
+  },
+  {
+   "mode": "text",
+   "level": "hard",
+   "q": "What is the capital of Myanmar?",
+   "options": [
+    "Yangon",
+    "Mandalay",
+    "Naypyidaw"
+   ],
+   "correct": 2,
+   "q_voice": "Only true experts get these. Eleven. The capital of Myanmar?",
+   "a_voice": "Naypyidaw!"
+  },
+  {
+   "mode": "text",
+   "level": "hard",
+   "q": "What is the capital of Côte d’Ivoire?",
+   "options": [
+    "Abidjan",
+    "Yamoussoukro",
+    "Bouaké"
+   ],
+   "correct": 1,
+   "q_voice": "Twelve. The capital of Côte d’Ivoire?",
+   "a_voice": "Yamoussoukro!"
+  },
+  {
+   "mode": "text",
+   "level": "hard",
+   "q": "What is the capital of Tanzania?",
+   "options": [
+    "Dodoma",
+    "Dar es Salaam",
+    "Arusha"
+   ],
+   "correct": 0,
+   "q_voice": "Thirteen. The capital of Tanzania?",
+   "a_voice": "Dodoma!"
+  },
+  {
+   "mode": "text",
+   "level": "hard",
+   "q": "What is the capital of Montenegro?",
+   "options": [
+    "Kotor",
+    "Budva",
+    "Podgorica"
+   ],
+   "correct": 2,
+   "q_voice": "Fourteen. The capital of Montenegro?",
+   "a_voice": "Podgorica!"
+  },
+  {
+   "mode": "text",
+   "level": "hard",
+   "q": "What is the capital of Mauritania?",
+   "options": [
+    "Nouadhibou",
+    "Nouakchott",
+    "Atar"
+   ],
+   "correct": 1,
+   "q_voice": "Fifteen. The capital of Mauritania?",
+   "a_voice": "Nouakchott!"
+  }
+ ],
+ "countdown": 4
+}

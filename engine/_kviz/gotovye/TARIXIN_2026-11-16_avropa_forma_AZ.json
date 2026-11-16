@@ -1,0 +1,151 @@
+{
+ "kind": "country",
+ "lang": "az",
+ "brand": "@Tarixin_izi",
+ "voice": "Puck",
+ "style": "An energetic quiz-show host for a viral geography channel, speaking Azerbaijani. Bright, playful, confident male voice, like a game-show host teasing the player. Big energy on the intro and every answer, a little suspense before each answer. Native Azerbaijani from Baku, clear standard pronunciation. Clear pauses at every empty line.",
+ "music": "/home/claude/ayatluma-videos/engine/zvuki/muzyka/Crossing-the-Chasm.mp3",
+ "header": "Avropa · Ölkəni formasına görə tap",
+ "intro_title": [
+  "Ölkəni formasından tanı",
+  "15 Avropa ölkəsi · asandan çətinə"
+ ],
+ "levels": {
+  "easy": "ASAN",
+  "medium": "ORTA",
+  "hard": "ÇƏTİN"
+ },
+ "answer_label": "CAVAB",
+ "outro_title": "15-dən neçə?",
+ "outro_sub": "Nəticəni şərhlərdə yaz",
+ "subscribe": "Abunə ol",
+ "intro_voice": "Avropanın on beş ölkəsi… yalnız konturu ilə. Sonuncu beşini demək olar ki, heç kim tapmır. Sən tapa bilərsənmi? Xallarını say. Başlayaq!",
+ "outro_voice": "Hə… neçəsini tapdın? On beşdən neçə — şərhlərdə yaz. Və abunə ol: hər gün yeni test!",
+ "cover_lines": [
+  "Son 5 ölkəni heç kim tapmır",
+  "Avropanı formasından tanıyırsan?"
+ ],
+ "out": "TARIXIN_KVIZ_avropa_forma_AZ",
+ "items": [
+  {
+   "mode": "shape",
+   "iso": "FRA",
+   "answer": "Fransa",
+   "level": "easy",
+   "q_voice": "Bir.",
+   "a_voice": "Bu… Fransa!"
+  },
+  {
+   "mode": "shape",
+   "iso": "ESP",
+   "answer": "İspaniya",
+   "level": "easy",
+   "q_voice": "İki.",
+   "a_voice": "Bu… İspaniya!"
+  },
+  {
+   "mode": "shape",
+   "iso": "ISL",
+   "answer": "İslandiya",
+   "level": "easy",
+   "q_voice": "Üç.",
+   "a_voice": "Bu… İslandiya!"
+  },
+  {
+   "mode": "shape",
+   "iso": "UKR",
+   "answer": "Ukrayna",
+   "level": "easy",
+   "q_voice": "Dörd.",
+   "a_voice": "Bu… Ukrayna!"
+  },
+  {
+   "mode": "shape",
+   "iso": "FIN",
+   "answer": "Finlandiya",
+   "level": "easy",
+   "q_voice": "Beş.",
+   "a_voice": "Bu… Finlandiya!"
+  },
+  {
+   "mode": "shape",
+   "iso": "POL",
+   "answer": "Polşa",
+   "level": "medium",
+   "q_voice": "İndi çətinləşir. Altı.",
+   "a_voice": "Bu… Polşa!"
+  },
+  {
+   "mode": "shape",
+   "iso": "IRL",
+   "answer": "İrlandiya",
+   "level": "medium",
+   "q_voice": "Yeddi.",
+   "a_voice": "Bu… İrlandiya!"
+  },
+  {
+   "mode": "shape",
+   "iso": "CHE",
+   "answer": "İsveçrə",
+   "level": "medium",
+   "q_voice": "Səkkiz.",
+   "a_voice": "Bu… İsveçrə!"
+  },
+  {
+   "mode": "shape",
+   "iso": "ROU",
+   "answer": "Rumıniya",
+   "level": "medium",
+   "q_voice": "Doqquz.",
+   "a_voice": "Bu… Rumıniya!"
+  },
+  {
+   "mode": "shape",
+   "iso": "HRV",
+   "answer": "Xorvatiya",
+   "level": "medium",
+   "q_voice": "On.",
+   "a_voice": "Bu… Xorvatiya!"
+  },
+  {
+   "mode": "shape",
+   "iso": "AUT",
+   "answer": "Avstriya",
+   "level": "hard",
+   "q_voice": "Bunları yalnız əsl bilici tapar. On bir.",
+   "a_voice": "Bu… Avstriya!"
+  },
+  {
+   "mode": "shape",
+   "iso": "BLR",
+   "answer": "Belarus",
+   "level": "hard",
+   "q_voice": "On iki.",
+   "a_voice": "Bu… Belarus!"
+  },
+  {
+   "mode": "shape",
+   "iso": "CZE",
+   "answer": "Çexiya",
+   "level": "hard",
+   "q_voice": "On üç.",
+   "a_voice": "Bu… Çexiya!"
+  },
+  {
+   "mode": "shape",
+   "iso": "BGR",
+   "answer": "Bolqarıstan",
+   "level": "hard",
+   "q_voice": "On dörd.",
+   "a_voice": "Bu… Bolqarıstan!"
+  },
+  {
+   "mode": "shape",
+   "iso": "SVN",
+   "answer": "Sloveniya",
+   "level": "hard",
+   "q_voice": "On beş.",
+   "a_voice": "Bu… Sloveniya!"
+  }
+ ]
+}
