@@ -518,9 +518,6 @@ def cover_quiz(cfg, bg, items, out, cache):
     for ln in wrap(d, UPP(cl[1], lang), f2, 980): shadow_text(im, (W / 2, y), ln, f2, GOLD + (255,)); y += 86
     im.convert('RGB').save(out, quality=92)
 
-if __name__ == '__main__':
-    build(os.path.abspath(sys.argv[1]))
-    if verify(os.path.abspath(sys.argv[1])): sys.exit(5)
 
 
 def verify(ep):
@@ -541,3 +538,8 @@ def verify(ep):
         print(f'{flag} {n:2d} {t:6.1f}s  nado: {ans}  |  slyshno: {got}')
     print('PROVERKA OTVETOV:', 'VSE OK' if bad == 0 else f'{bad} PLOHO — ne publikovat')
     return bad
+
+
+if __name__ == '__main__':
+    build(os.path.abspath(sys.argv[1]))
+    if verify(os.path.abspath(sys.argv[1])): sys.exit(5)
