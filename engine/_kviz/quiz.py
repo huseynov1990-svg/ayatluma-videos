@@ -444,7 +444,9 @@ def build(ep):
         elif e[0] == 'whoosh': put(sbuf, sfx_whoosh(), e[1], 0.6)
         elif e[0] == 'boom': put(sbuf, sfx_boom(), e[1])
     mus = np.zeros_like(vbuf)
-    if cfg.get('music') and os.path.exists(cfg['music']):
+    religion = cfg.get('religion') or any(k in cfg.get('out', '').upper() for k in ('AYAT', 'RUHUN'))
+    if religion: print('» religiya: BEZ MUZYKI (pravilo polzovatelya)')
+    if cfg.get('music') and os.path.exists(cfg['music']) and not religion:
         m = read_audio(cfg['music'])
         while len(m) < len(mus): m = np.concatenate([m, m])
         mus = m[:len(mus)] * 0.16

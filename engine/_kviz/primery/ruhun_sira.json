@@ -2,9 +2,9 @@
  "kind": "text",
  "lang": "az",
  "brand": "",
- "voice": "Sulafat",
- "style": "A warm, friendly female quiz host on an Islamic channel, speaking Azerbaijani (Baku, clear literary pronunciation). Calm but engaging, a little suspense before each answer. Medium pace, slower on numbers and answers. Clear pauses at every empty line.",
- "music": "/home/claude/ayatluma-videos/engine/zvuki/muzyka/Desert-Fox-Underscore.mp3",
+ "voice": "Sadachbia",
+ "style": "A calm, friendly male quiz host on an Islamic channel, speaking Azerbaijani (Baku, clear literary pronunciation). Warm and engaging, a little suspense before each answer. Medium pace, slower on numbers and answers. Clear pauses at every empty line.",
+ "music": "",
  "header": "Ruhun Qidası · Viktorina",
  "intro_title": [
   "Özünü yoxla",
@@ -165,5 +165,6 @@
    "q_voice": "Onuncu sual. Peyğəmbər ﷺ dünyadan köçəndə neçə yaşında idi?",
    "a_voice": "Altmış üç yaş."
   }
- ]
+ ],
+ "religion": true
 }

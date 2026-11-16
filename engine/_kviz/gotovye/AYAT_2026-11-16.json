@@ -4,7 +4,7 @@
  "brand": "",
  "voice": "Achird",
  "style": "Friendly, warm quiz host on an Islamic channel, speaking Russian. Calm but engaging, a little suspense before each answer, gentle smile in the voice. Pace: medium, clearly slower on numbers and answers. Clear pauses at every '…' and every empty line.",
- "music": "/home/claude/ayatluma-videos/engine/zvuki/muzyka/Desert-Fox-Underscore.mp3",
+ "music": "",
  "header": "AYAT LUMA · ВИКТОРИНА",
  "intro_title": [
   "Проверь себя",
@@ -165,5 +165,6 @@
    "q_voice": "Вопрос десятый. Сколько лет было Пророку ﷺ, когда он покинул этот мир?",
    "a_voice": "Шестьдесят три года."
   }
- ]
+ ],
+ "religion": true
 }

@@ -11,7 +11,7 @@
 | **AYAT LUMA** (7638352), YouTube short + IG REEL | 07:00 | рассказ УТРО (`temy_ayatluma.txt`) | Charon |
 | | 13:00 | **викторина** (`temy_kviz_religiya.txt`), русский | Achird |
 | | 19:30 | рассказ ВЕЧЕР / Нузул (`temy_ayatluma.txt`) | Iapetus |
-| **Ruhun Qidası** (8112816), только IG REEL | 09:00 | **викторина** на азербайджанском — перевод последней викторины AYAT LUMA | Sulafat |
+| **Ruhun Qidası** (8112816), только IG REEL | 09:00 | **викторина** на азербайджанском — перевод последней викторины AYAT LUMA | Sadachbia (мужской) |
 | | 12:00 | перевод утреннего рассказа AYAT LUMA на азербайджанский | Schedar |
 | | 21:00 | сира Пророка ﷺ: следующая часть серии «Peyğəmbərin (s.ə.s) həyatı — N-ci hissə» | Umbriel |
 | **Tarixin izi + Dörd Bucaq** (8112733), YouTube short + IG REEL | 10:00 | **викторина** AZ (`temy_kviz_istoriya.txt`) | Puck |
@@ -46,6 +46,7 @@ python3 $E/_kviz/quiz.py <папка>      # в папке quiz.json (+ cover.js
 - `level`: `easy` / `medium` / `hard` — по возрастанию к концу.
 
 ### Правила викторин
+- **РЕЛИГИЯ (AYAT LUMA, Ruhun Qidası): БЕЗ МУЗЫКИ** — в quiz.json `"religion": true`, `"music": ""` (quiz.py и так выключает музыку для AYAT/RUHUN). Только голос и тихие звуки (тик, «динь»). **Только МУЖСКИЕ голоса** (Achird, Sadachbia, Charon, Iapetus, Schedar, Umbriel…), никаких женских. Правило пользователя 16.11.2026.
 - Хук в первой фразе (`intro_voice`): «Только 1 из 10 ответит на все…», «Последние 3 почти никто не угадывает…». Обложка — тоже вокруг хука.
 - Религия: 10 вопросов, 3 варианта, у каждого ответа — **достоверный источник с номером** (аль-Бухари, Муслим…; Коран — номер аята). Только однозначные факты, без спорных вопросов (кто «первый» принял ислам и т.п. — не брать). Ответ в озвучке — только сам ответ («Сорок лет.»), без «Правильный ответ:» (это ломает нарезку).
 - Флаги/контуры: 15 вопросов, 5 лёгких → 5 средних → 5 сложных; перед 6-м «Indi çətinləşir» / «Now it gets harder», перед 11-м «Bunları yalnız əsl bilici tapar» / «Only true experts get these». Ответ: «Bu… İtaliya!» / «It's… Italy!».
@@ -59,7 +60,7 @@ python3 $E/_kviz/quiz.py <папка>      # в папке quiz.json (+ cover.js
 Плюс ПОЛНЫЙ ежедневный отчёт по всем 4 каналам (раздел 10 общей инструкции) — эту часть делает только задача AYAT LUMA.
 
 ## 5. Задача «Ruhun Qidası» (3 ролика)
-1. Викторина AZ → 09:00: переведи последний `engine/_kviz/gotovye/AYAT_*.json`, которого ещё нет как `RUHUN_*.json` (голос Sulafat, header «Ruhun Qidası · Viktorina», levels ASAN/ORTA/ÇƏTİN, answer_label CAVAB, subscribe «ABUNƏ OL»; номера вопросов «Birinci sual…»). Образец — `primery/ruhun_sira.json`. Сохрани как `gotovye/RUHUN_<дата>.json`.
+1. Викторина AZ → 09:00: переведи последний `engine/_kviz/gotovye/AYAT_*.json`, которого ещё нет как `RUHUN_*.json` (голос Sadachbia — мужской, header «Ruhun Qidası · Viktorina», levels ASAN/ORTA/ÇƏTİN, answer_label CAVAB, subscribe «ABUNƏ OL»; номера вопросов «Birinci sual…»). Образец — `primery/ruhun_sira.json`. Сохрани как `gotovye/RUHUN_<дата>.json`.
    Если нового AYAT-файла нет — сделай свою викторину по `temy_kviz_religiya.txt` (строки с меткой RUHUN не нужны — бери любую `[ ]`, пометь `[готово ДАТА ruhun]`).
 2. Перевод утреннего рассказа AYAT LUMA → 12:00 (как раздел 5 общей инструкции): возьми самый новый `engine/scenarii/AYAT_*_utro.txt`, который ещё не переведён (переведённые помечай файлом `..._utro_RUHUN_GOTOVO.txt`). Если такого файла нет — возьми текст поста Metricool последнего утреннего ролика AYAT LUMA и напиши рассказ на ту же тему. Перед этим проверь, что такой темы не было на Ruhun Qidası.
 3. Сира → 21:00: посмотри в Metricool (IGRE03, бренд 8112816) последнюю часть «Peyğəmbərin (s.ə.s) həyatı — N-ci hissə» и сделай часть N+1 (следующее событие сиры по порядку, только достоверные источники: Бухари, Муслим, достоверные сиры с пометкой). Подпись поста как у прошлых частей (номер части, «Hər gün yeni hissə!», «Sonda dua. Amin!», «Paylaş — savaba ortaq ol»). В конце ролика — короткое дуа. Голос Umbriel, `series` «Peyğəmbərin (s.ə.s) həyatı · N».
