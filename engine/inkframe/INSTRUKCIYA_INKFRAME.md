@@ -36,7 +36,7 @@ fc-list | grep -i inter || (шрифт Inter: pip download / положить в
 6. Проверить: длительность, 5 кадров, звук (распознать первые 30 с — голос читает текст, без лишнего).
 
 ## 4. Публикация (Metricool, БЕЗ подтверждения пользователя)
-- Бренд: в `getBrandSettings` найти бренд с YouTube `UC-3TZ_7BHntBBmOcdjKdKVQ` (Inkframe). **Если его нет** — собрать серии, загрузить на GitHub, ничего не публиковать и написать пользователю одной строкой: «Inkframe Stories не виден в Metricool аккаунта huseynovaamina2017@gmail.com — добавьте бренд туда».
+- Бренд Metricool: **Inkframe Stories, id 8160878** (YouTube `UC-3TZ_7BHntBBmOcdjKdKVQ`, подключён 17.11.2026). **Если его нет** — собрать серии, загрузить на GitHub, ничего не публиковать и написать пользователю одной строкой: «Inkframe Stories не виден в Metricool аккаунта huseynovaamina2017@gmail.com — добавьте бренд туда».
 - Файл ≤ 95 МБ: `ffmpeg -i episode.mp4 -c:v libx264 -preset faster -crf 26 -maxrate 6M -bufsize 12M -c:a aac -b:a 160k -movflags +faststart up.mp4`.
 - `python3 $E/upload.py /home/claude/ayatluma-videos inkframe up.mp4 thumb_A.jpg` (имена файлов уникальные: `IWT_E02_*.mp4`, `WN_S01E02_*.mp4`) → raw-ссылки.
 - `createScheduledPost`: providers youtube, youtubeData {title, type "video", privacy public, madeForKids false, category ENTERTAINMENT, tags, isAiGeneratedContent true}, videoThumbnailUrl = обложка A, text = описание. Время: I Was There 20:00 МСК, Wrong Number 23:00 МСК, ближайший будущий свободный слот.
