@@ -1,0 +1,12 @@
+# N | блок | VIDEO
+1 | 1 | VIDEO: dawn sky clouds sunrise
+2 | 2 | VIDEO: desert oasis palm trees
+3 | 3 | VIDEO: sunrise mist mountains
+4 | 4 | VIDEO: night sky stars timelapse
+5 | 5 | VIDEO: golden sunrise clouds sky
+6 | 6 | VIDEO: morning light rays clouds
+7 | 7 | VIDEO: calm lake sunrise
+8 | 8 | VIDEO: sunset clouds timelapse
+9 | 9 | VIDEO: clouds sky timelapse
+10 | 10 | VIDEO: sunrise over sea
+11 | 11 | VIDEO: light rays sky clouds
