@@ -1,0 +1,18 @@
+{
+ "series": "Peyğəmbərin (s.ə.s) həyatı · 47",
+ "title": "Əli və Fatimə: xidmətçidən xeyirli",
+ "out": "RUHUN_QIDASI_SIRE_047_eli_fatime",
+ "lang": "az",
+ "blocks": {
+  "2": {"label": "BƏDRDƏN SONRA · MEHR", "ref": "BUXARİ, 3091 · ƏBU DAVUD, 2125"},
+  "3": {"label": "SADƏ CEHİZ", "ref": "NƏSAİ, 3384 · İBN MACƏ, 4152"},
+  "4": {"label": "ƏL DƏYİRMANI", "ref": "BUXARİ, 3705"},
+  "5": {"label": "GECƏ ZİYARƏTİ", "ref": "BUXARİ, 3705 · MÜSLİM, 2727"},
+  "6": {"label": "33 · 33 · 34", "ref": "BUXARİ, 3705 · MÜSLİM, 2727"},
+  "7": {"label": "HƏTTA SİFFEYNDƏ", "ref": "BUXARİ, 5362 · MÜSLİM, 2727"},
+  "8": {"label": "DƏRS"},
+  "9": {"label": "DUA", "ref": "FURQAN, 25:74"},
+  "10": {"label": "ABUNƏ OL"},
+  "11": {"cta": 1, "ref": "MÜSLİM, 1893"}
+ }
+}
