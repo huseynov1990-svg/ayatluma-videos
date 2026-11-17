@@ -1,0 +1,153 @@
+{
+ "kind": "country",
+ "lang": "en",
+ "brand": "",
+ "voice": "Laomedeia",
+ "style": "An energetic, friendly female quiz-show host for a viral geography channel, speaking American English. Bright, playful and confident, a little suspense before each answer. Clear pauses at every empty line.",
+ "music": "/home/claude/ayatluma-videos/engine/zvuki/muzyka/Crossing-the-Chasm.mp3",
+ "header": "Flags of Asia · Guess the flag",
+ "intro_title": [
+  "Guess the flag",
+  "15 Asian countries · easy to hard"
+ ],
+ "levels": {
+  "easy": "EASY",
+  "medium": "MEDIUM",
+  "hard": "HARD"
+ },
+ "answer_label": "ANSWER",
+ "outro_title": "How many out of 15?",
+ "outro_sub": "Write your score in the comments",
+ "subscribe": "Subscribe",
+ "intro_voice": "Only one person in ten gets all fifteen of these flags. The flags of Asia, from easy to really hard. How many can you get? Let's find out!",
+ "outro_voice": "So… how many did you get? Write your score out of fifteen in the comments. And subscribe for a new quiz every day!",
+ "cover_lines": [
+  "Only 1 in 10 gets all 15",
+  "Do you know the flags of Asia?"
+ ],
+ "out": "CARTO_QUIZ_asia_flags_EN",
+ "countdown": 4,
+ "tts_model": "gemini-2.5-flash-preview-tts",
+ "items": [
+  {
+   "mode": "flag",
+   "iso2": "bd",
+   "answer": "Bangladesh",
+   "level": "easy",
+   "q_voice": "",
+   "a_voice": "Bangladesh!"
+  },
+  {
+   "mode": "flag",
+   "iso2": "ph",
+   "answer": "Philippines",
+   "level": "easy",
+   "q_voice": "",
+   "a_voice": "Philippines!"
+  },
+  {
+   "mode": "flag",
+   "iso2": "my",
+   "answer": "Malaysia",
+   "level": "easy",
+   "q_voice": "",
+   "a_voice": "Malaysia!"
+  },
+  {
+   "mode": "flag",
+   "iso2": "sg",
+   "answer": "Singapore",
+   "level": "easy",
+   "q_voice": "",
+   "a_voice": "Singapore!"
+  },
+  {
+   "mode": "flag",
+   "iso2": "id",
+   "answer": "Indonesia",
+   "level": "easy",
+   "q_voice": "",
+   "a_voice": "Indonesia!"
+  },
+  {
+   "mode": "flag",
+   "iso2": "ae",
+   "answer": "United Arab Emirates",
+   "level": "medium",
+   "q_voice": "Now it gets harder!",
+   "a_voice": "United Arab Emirates!"
+  },
+  {
+   "mode": "flag",
+   "iso2": "lb",
+   "answer": "Lebanon",
+   "level": "medium",
+   "q_voice": "",
+   "a_voice": "Lebanon!"
+  },
+  {
+   "mode": "flag",
+   "iso2": "qa",
+   "answer": "Qatar",
+   "level": "medium",
+   "q_voice": "",
+   "a_voice": "Qatar!"
+  },
+  {
+   "mode": "flag",
+   "iso2": "kw",
+   "answer": "Kuwait",
+   "level": "medium",
+   "q_voice": "",
+   "a_voice": "Kuwait!"
+  },
+  {
+   "mode": "flag",
+   "iso2": "mv",
+   "answer": "Maldives",
+   "level": "medium",
+   "q_voice": "",
+   "a_voice": "Maldives!"
+  },
+  {
+   "mode": "flag",
+   "iso2": "la",
+   "answer": "Laos",
+   "level": "hard",
+   "q_voice": "Only true experts get these!",
+   "a_voice": "Laos!"
+  },
+  {
+   "mode": "flag",
+   "iso2": "tj",
+   "answer": "Tajikistan",
+   "level": "hard",
+   "q_voice": "",
+   "a_voice": "Tajikistan!"
+  },
+  {
+   "mode": "flag",
+   "iso2": "tl",
+   "answer": "East Timor",
+   "level": "hard",
+   "q_voice": "",
+   "a_voice": "East Timor!"
+  },
+  {
+   "mode": "flag",
+   "iso2": "bh",
+   "answer": "Bahrain",
+   "level": "hard",
+   "q_voice": "",
+   "a_voice": "Bahrain!"
+  },
+  {
+   "mode": "flag",
+   "iso2": "om",
+   "answer": "Oman",
+   "level": "hard",
+   "q_voice": "",
+   "a_voice": "Oman!"
+  }
+ ]
+}

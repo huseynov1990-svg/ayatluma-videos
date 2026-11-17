@@ -1,0 +1,153 @@
+{
+ "kind": "country",
+ "lang": "az",
+ "brand": "@Tarixin_izi",
+ "voice": "Puck",
+ "style": "An energetic quiz-show host for a viral geography channel, speaking Azerbaijani. Bright, playful, confident male voice, like a game-show host teasing the player. Big energy on the intro and every answer, a little suspense before each answer. Native Azerbaijani from Baku, clear standard pronunciation. Clear pauses at every empty line.",
+ "music": "/home/claude/ayatluma-videos/engine/zvuki/muzyka/Crossing-the-Chasm.mp3",
+ "header": "Afrika · Ölkəni formasına görə tap",
+ "intro_title": [
+  "Ölkəni formasından tanı",
+  "15 Afrika ölkəsi · asandan çətinə"
+ ],
+ "levels": {
+  "easy": "ASAN",
+  "medium": "ORTA",
+  "hard": "ÇƏTİN"
+ },
+ "answer_label": "CAVAB",
+ "outro_title": "15-dən neçə?",
+ "outro_sub": "Nəticəni şərhlərdə yaz",
+ "subscribe": "Abunə ol",
+ "intro_voice": "Afrikanın on beş ölkəsi… yalnız konturu ilə. Sonuncu beşini demək olar ki, heç kim tapmır. Sən tapa bilərsənmi? Xallarını say. Başlayaq!",
+ "outro_voice": "Hə… neçəsini tapdın? On beşdən neçə — şərhlərdə yaz. Və abunə ol: hər gün yeni test!",
+ "cover_lines": [
+  "Son 5 ölkəni heç kim tapmır",
+  "Afrikanı formasından tanıyırsan?"
+ ],
+ "out": "TARIXIN_KVIZ_afrika_forma_AZ",
+ "tts_model": "gemini-2.5-flash-preview-tts",
+ "countdown": 4,
+ "items": [
+  {
+   "mode": "shape",
+   "iso": "SOM",
+   "answer": "Somali",
+   "level": "easy",
+   "q_voice": "",
+   "a_voice": "Somali!"
+  },
+  {
+   "mode": "shape",
+   "iso": "LBY",
+   "answer": "Liviya",
+   "level": "easy",
+   "q_voice": "",
+   "a_voice": "Liviya!"
+  },
+  {
+   "mode": "shape",
+   "iso": "ETH",
+   "answer": "Efiopiya",
+   "level": "easy",
+   "q_voice": "",
+   "a_voice": "Efiopiya!"
+  },
+  {
+   "mode": "shape",
+   "iso": "AGO",
+   "answer": "Anqola",
+   "level": "easy",
+   "q_voice": "",
+   "a_voice": "Anqola!"
+  },
+  {
+   "mode": "shape",
+   "iso": "DZA",
+   "answer": "Əlcəzair",
+   "level": "easy",
+   "q_voice": "",
+   "a_voice": "Əlcəzair!"
+  },
+  {
+   "mode": "shape",
+   "iso": "GMB",
+   "answer": "Qambiya",
+   "level": "medium",
+   "q_voice": "İndi çətinləşir!",
+   "a_voice": "Qambiya!"
+  },
+  {
+   "mode": "shape",
+   "iso": "NAM",
+   "answer": "Namibiya",
+   "level": "medium",
+   "q_voice": "",
+   "a_voice": "Namibiya!"
+  },
+  {
+   "mode": "shape",
+   "iso": "MWI",
+   "answer": "Malavi",
+   "level": "medium",
+   "q_voice": "",
+   "a_voice": "Malavi!"
+  },
+  {
+   "mode": "shape",
+   "iso": "CMR",
+   "answer": "Kamerun",
+   "level": "medium",
+   "q_voice": "",
+   "a_voice": "Kamerun!"
+  },
+  {
+   "mode": "shape",
+   "iso": "ZMB",
+   "answer": "Zambiya",
+   "level": "medium",
+   "q_voice": "",
+   "a_voice": "Zambiya!"
+  },
+  {
+   "mode": "shape",
+   "iso": "BEN",
+   "answer": "Benin",
+   "level": "hard",
+   "q_voice": "Bunları yalnız əsl bilici tapar!",
+   "a_voice": "Benin!"
+  },
+  {
+   "mode": "shape",
+   "iso": "TGO",
+   "answer": "Toqo",
+   "level": "hard",
+   "q_voice": "",
+   "a_voice": "Toqo!"
+  },
+  {
+   "mode": "shape",
+   "iso": "ERI",
+   "answer": "Eritreya",
+   "level": "hard",
+   "q_voice": "",
+   "a_voice": "Eritreya!"
+  },
+  {
+   "mode": "shape",
+   "iso": "BFA",
+   "answer": "Burkina-Faso",
+   "level": "hard",
+   "q_voice": "",
+   "a_voice": "Burkina-Faso!"
+  },
+  {
+   "mode": "shape",
+   "iso": "GAB",
+   "answer": "Qabon",
+   "level": "hard",
+   "q_voice": "",
+   "a_voice": "Qabon!"
+  }
+ ]
+}

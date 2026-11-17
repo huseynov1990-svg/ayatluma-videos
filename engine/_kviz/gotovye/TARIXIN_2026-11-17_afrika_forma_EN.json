@@ -1,0 +1,153 @@
+{
+ "kind": "country",
+ "lang": "en",
+ "brand": "",
+ "voice": "Laomedeia",
+ "style": "An energetic, friendly female quiz-show host for a viral geography channel, speaking American English. Bright, playful and confident, a little suspense before each answer. Clear pauses at every empty line.",
+ "music": "/home/claude/ayatluma-videos/engine/zvuki/muzyka/Crossing-the-Chasm.mp3",
+ "header": "Africa · Guess the country by shape",
+ "intro_title": [
+  "Guess the country",
+  "15 African shapes · easy to hard"
+ ],
+ "levels": {
+  "easy": "EASY",
+  "medium": "MEDIUM",
+  "hard": "HARD"
+ },
+ "answer_label": "ANSWER",
+ "outro_title": "How many out of 15?",
+ "outro_sub": "Write your score in the comments",
+ "subscribe": "Subscribe",
+ "intro_voice": "Fifteen African countries… only by their outline. Almost nobody gets the last five. Can you? Keep score. Let's go!",
+ "outro_voice": "So… how many did you get? Write your score out of fifteen in the comments. And subscribe for a new quiz every day!",
+ "cover_lines": [
+  "Nobody gets the last 5 countries",
+  "Do you know Africa by its shape?"
+ ],
+ "out": "CARTO_QUIZ_africa_shapes_EN",
+ "countdown": 4,
+ "tts_model": "gemini-2.5-flash-preview-tts",
+ "items": [
+  {
+   "mode": "shape",
+   "iso": "SOM",
+   "answer": "Somalia",
+   "level": "easy",
+   "q_voice": "",
+   "a_voice": "Somalia!"
+  },
+  {
+   "mode": "shape",
+   "iso": "LBY",
+   "answer": "Libya",
+   "level": "easy",
+   "q_voice": "",
+   "a_voice": "Libya!"
+  },
+  {
+   "mode": "shape",
+   "iso": "ETH",
+   "answer": "Ethiopia",
+   "level": "easy",
+   "q_voice": "",
+   "a_voice": "Ethiopia!"
+  },
+  {
+   "mode": "shape",
+   "iso": "AGO",
+   "answer": "Angola",
+   "level": "easy",
+   "q_voice": "",
+   "a_voice": "Angola!"
+  },
+  {
+   "mode": "shape",
+   "iso": "DZA",
+   "answer": "Algeria",
+   "level": "easy",
+   "q_voice": "",
+   "a_voice": "Algeria!"
+  },
+  {
+   "mode": "shape",
+   "iso": "GMB",
+   "answer": "Gambia",
+   "level": "medium",
+   "q_voice": "Now it gets harder!",
+   "a_voice": "Gambia!"
+  },
+  {
+   "mode": "shape",
+   "iso": "NAM",
+   "answer": "Namibia",
+   "level": "medium",
+   "q_voice": "",
+   "a_voice": "Namibia!"
+  },
+  {
+   "mode": "shape",
+   "iso": "MWI",
+   "answer": "Malawi",
+   "level": "medium",
+   "q_voice": "",
+   "a_voice": "Malawi!"
+  },
+  {
+   "mode": "shape",
+   "iso": "CMR",
+   "answer": "Cameroon",
+   "level": "medium",
+   "q_voice": "",
+   "a_voice": "Cameroon!"
+  },
+  {
+   "mode": "shape",
+   "iso": "ZMB",
+   "answer": "Zambia",
+   "level": "medium",
+   "q_voice": "",
+   "a_voice": "Zambia!"
+  },
+  {
+   "mode": "shape",
+   "iso": "BEN",
+   "answer": "Benin",
+   "level": "hard",
+   "q_voice": "Only true experts get these!",
+   "a_voice": "Benin!"
+  },
+  {
+   "mode": "shape",
+   "iso": "TGO",
+   "answer": "Togo",
+   "level": "hard",
+   "q_voice": "",
+   "a_voice": "Togo!"
+  },
+  {
+   "mode": "shape",
+   "iso": "ERI",
+   "answer": "Eritrea",
+   "level": "hard",
+   "q_voice": "",
+   "a_voice": "Eritrea!"
+  },
+  {
+   "mode": "shape",
+   "iso": "BFA",
+   "answer": "Burkina Faso",
+   "level": "hard",
+   "q_voice": "",
+   "a_voice": "Burkina Faso!"
+  },
+  {
+   "mode": "shape",
+   "iso": "GAB",
+   "answer": "Gabon",
+   "level": "hard",
+   "q_voice": "",
+   "a_voice": "Gabon!"
+  }
+ ]
+}

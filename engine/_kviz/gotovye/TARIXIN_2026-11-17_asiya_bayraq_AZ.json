@@ -1,0 +1,153 @@
+{
+ "kind": "country",
+ "lang": "az",
+ "brand": "@Tarixin_izi",
+ "voice": "Puck",
+ "style": "An energetic quiz-show host for a viral geography channel, speaking Azerbaijani. Bright, playful, confident male voice, like a game-show host teasing the player. Big energy on the intro and every answer, a little suspense before each answer. Native Azerbaijani from Baku, clear standard pronunciation. Clear pauses at every empty line.",
+ "music": "/home/claude/ayatluma-videos/engine/zvuki/muzyka/Crossing-the-Chasm.mp3",
+ "header": "Asiya bayraqları · Bayrağı tap",
+ "intro_title": [
+  "Bayrağı tap",
+  "15 Asiya ölkəsi · asandan çətinə"
+ ],
+ "levels": {
+  "easy": "ASAN",
+  "medium": "ORTA",
+  "hard": "ÇƏTİN"
+ },
+ "answer_label": "CAVAB",
+ "outro_title": "15-dən neçə?",
+ "outro_sub": "Nəticəni şərhlərdə yaz",
+ "subscribe": "Abunə ol",
+ "intro_voice": "Yalnız hər on nəfərdən biri bu on beş bayrağın hamısını tapır. Asiyanın bayraqları — asandan çətinə. Sən neçəsini tapacaqsan? Xallarını say. Başlayaq!",
+ "outro_voice": "Hə… neçəsini tapdın? On beşdən neçə — şərhlərdə yaz. Və abunə ol: hər gün yeni test!",
+ "cover_lines": [
+  "10 nəfərdən yalnız 1-i hamısını tapır",
+  "Asiyanın bayraqlarını tanıyırsan?"
+ ],
+ "out": "TARIXIN_KVIZ_asiya_bayraq_AZ",
+ "tts_model": "gemini-2.5-flash-preview-tts",
+ "countdown": 4,
+ "items": [
+  {
+   "mode": "flag",
+   "iso2": "bd",
+   "answer": "Banqladeş",
+   "level": "easy",
+   "q_voice": "",
+   "a_voice": "Banqladeş!"
+  },
+  {
+   "mode": "flag",
+   "iso2": "ph",
+   "answer": "Filippin",
+   "level": "easy",
+   "q_voice": "",
+   "a_voice": "Filippin!"
+  },
+  {
+   "mode": "flag",
+   "iso2": "my",
+   "answer": "Malayziya",
+   "level": "easy",
+   "q_voice": "",
+   "a_voice": "Malayziya!"
+  },
+  {
+   "mode": "flag",
+   "iso2": "sg",
+   "answer": "Sinqapur",
+   "level": "easy",
+   "q_voice": "",
+   "a_voice": "Sinqapur!"
+  },
+  {
+   "mode": "flag",
+   "iso2": "id",
+   "answer": "İndoneziya",
+   "level": "easy",
+   "q_voice": "",
+   "a_voice": "İndoneziya!"
+  },
+  {
+   "mode": "flag",
+   "iso2": "ae",
+   "answer": "Birləşmiş Ərəb Əmirlikləri",
+   "level": "medium",
+   "q_voice": "İndi çətinləşir!",
+   "a_voice": "Birləşmiş Ərəb Əmirlikləri!"
+  },
+  {
+   "mode": "flag",
+   "iso2": "lb",
+   "answer": "Livan",
+   "level": "medium",
+   "q_voice": "",
+   "a_voice": "Livan!"
+  },
+  {
+   "mode": "flag",
+   "iso2": "qa",
+   "answer": "Qətər",
+   "level": "medium",
+   "q_voice": "",
+   "a_voice": "Qətər!"
+  },
+  {
+   "mode": "flag",
+   "iso2": "kw",
+   "answer": "Küveyt",
+   "level": "medium",
+   "q_voice": "",
+   "a_voice": "Küveyt!"
+  },
+  {
+   "mode": "flag",
+   "iso2": "mv",
+   "answer": "Maldiv",
+   "level": "medium",
+   "q_voice": "",
+   "a_voice": "Maldiv!"
+  },
+  {
+   "mode": "flag",
+   "iso2": "la",
+   "answer": "Laos",
+   "level": "hard",
+   "q_voice": "Bunları yalnız əsl bilici tapar!",
+   "a_voice": "Laos!"
+  },
+  {
+   "mode": "flag",
+   "iso2": "tj",
+   "answer": "Tacikistan",
+   "level": "hard",
+   "q_voice": "",
+   "a_voice": "Tacikistan!"
+  },
+  {
+   "mode": "flag",
+   "iso2": "tl",
+   "answer": "Şərqi Timor",
+   "level": "hard",
+   "q_voice": "",
+   "a_voice": "Şərqi Timor!"
+  },
+  {
+   "mode": "flag",
+   "iso2": "bh",
+   "answer": "Bəhreyn",
+   "level": "hard",
+   "q_voice": "",
+   "a_voice": "Bəhreyn!"
+  },
+  {
+   "mode": "flag",
+   "iso2": "om",
+   "answer": "Oman",
+   "level": "hard",
+   "q_voice": "",
+   "a_voice": "Oman!"
+  }
+ ]
+}
