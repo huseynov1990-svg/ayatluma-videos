@@ -1,0 +1,18 @@
+{
+ "series": "Peyğəmbərin (s.ə.s) həyatı · 48",
+ "title": "Uhuda yürüş: geri dönənlər",
+ "out": "RUHUN_QIDASI_SIRE_048_uhud_yurus",
+ "lang": "az",
+ "blocks": {
+  "2": {"label": "QUREYŞİN İNTİQAMI", "ref": "İBN HİŞAM, «ƏS-SİRƏ»"},
+  "3": {"label": "SINAN QILINC", "ref": "BUXARİ, 3622 · MÜSLİM, 2272"},
+  "4": {"label": "14 YAŞLI İBN ÖMƏR", "ref": "BUXARİ, 2664 · MÜSLİM, 1868"},
+  "5": {"label": "SƏHƏR TEZDƏN", "ref": "ALİ İMRAN, 3:121"},
+  "6": {"label": "GERİ DÖNƏNLƏR", "ref": "ALİ İMRAN, 3:167 · BUXARİ, 4050"},
+  "7": {"label": "İKİ TAYFA", "ref": "ALİ İMRAN, 3:122 · BUXARİ, 4051"},
+  "8": {"label": "700 NƏFƏR", "ref": "İBN HİŞAM, «ƏS-SİRƏ»"},
+  "9": {"label": "DUA", "ref": "ALİ İMRAN, 3:147"},
+  "10": {"label": "ABUNƏ OL"},
+  "11": {"cta": 1, "ref": "MÜSLİM, 1893"}
+ }
+}

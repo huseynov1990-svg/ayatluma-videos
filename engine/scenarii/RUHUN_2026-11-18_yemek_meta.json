@@ -1,0 +1,18 @@
+{
+ "series": "Peyğəmbərin sünnələri · 4",
+ "title": "Yeməkdə 5 sünnə",
+ "out": "RUHUN_QIDASI_SUNNE_004_yemek",
+ "lang": "az",
+ "blocks": {
+  "2": {"label": "BEŞ SÜNNƏ", "ref": "MÜSLİM, 2017"},
+  "3": {"label": "SÜNNƏ 1 · BİSMİLLAH", "ref": "BUXARİ, 5376 · MÜSLİM, 2022"},
+  "4": {"label": "UNUTMUSANSA", "ref": "ƏBU DAVUD, 3767 · TİRMİZİ, 1858"},
+  "5": {"label": "SÜNNƏ 2 · SAĞ ƏLLƏ", "ref": "MÜSLİM, 2020"},
+  "6": {"label": "SÜNNƏ 3 · ÖNÜNDƏN YE", "ref": "BUXARİ, 5376"},
+  "7": {"label": "SÜNNƏ 4 · İRAD TUTMA", "ref": "BUXARİ, 5409"},
+  "8": {"label": "SÜNNƏ 5 · DÜŞƏN TİKƏ", "ref": "MÜSLİM, 2033"},
+  "9": {"label": "ƏLHƏMDULİLLAH", "ref": "MÜSLİM, 2734"},
+  "10": {"label": "ABUNƏ OL"},
+  "11": {"cta": 1, "ref": "MÜSLİM, 1893"}
+ }
+}

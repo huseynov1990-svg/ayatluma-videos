@@ -1,0 +1,170 @@
+{
+ "kind": "text",
+ "lang": "az",
+ "brand": "",
+ "voice": "Sadachbia",
+ "style": "A calm, friendly male quiz host on an Islamic channel, speaking Azerbaijani (Baku, clear literary pronunciation). Warm and engaging, a little suspense before each answer. Medium pace, slower on numbers and answers. Clear pauses at every empty line.",
+ "music": "",
+ "header": "Ruhun Qidası · Viktorina",
+ "intro_title": [
+  "Özünü yoxla",
+  "Quranda peyğəmbərlər: 10 sual"
+ ],
+ "intro_sub": "Xallarını say",
+ "levels": {
+  "easy": "ASAN",
+  "medium": "ORTA",
+  "hard": "ÇƏTİN"
+ },
+ "answer_label": "CAVAB",
+ "outro_title": "10-dan neçə?",
+ "outro_sub": "Nəticəni şərhlərdə yaz",
+ "subscribe": "ABUNƏ OL",
+ "intro_voice": "Bu hekayələri uşaqlıqdan eşitmisən… bəs on suala hamısına cavab verə biləcəksənmi? Qurandakı peyğəmbərləri nə qədər yaxşı tanıyırsan? Xallarını say!",
+ "outro_voice": "Hə… ondan neçə? Nəticəni şərhlərdə yaz. Və abunə ol: sabah yeni suallar var.",
+ "bg_prompt": "A wooden ark resting on a mountain top above a calm sea at golden dawn, soft clouds, cinematic, no people, no animals, no text",
+ "out": "RUHUN_QIDASI_VIKTORINA_003_peygemberler",
+ "religion": true,
+ "items": [
+  {
+   "mode": "text",
+   "level": "easy",
+   "q": "Peyğəmbərlərdən hansı gəmi düzəltdi?",
+   "options": [
+    "Nuh",
+    "İbrahim",
+    "Musa"
+   ],
+   "correct": 0,
+   "source": "Quran, 11:37–38",
+   "q_voice": "Birinci sual. Peyğəmbərlərdən hansı gəmi düzəltdi?",
+   "a_voice": "Nuh əleyhissalam."
+  },
+  {
+   "mode": "text",
+   "level": "easy",
+   "q": "Hansı peyğəmbəri balıq uddu?",
+   "options": [
+    "Yusif",
+    "Yunus",
+    "İsa"
+   ],
+   "correct": 1,
+   "source": "Quran, 37:139–142",
+   "q_voice": "İkinci sual. Hansı peyğəmbəri balıq uddu?",
+   "a_voice": "Yunus əleyhissalam."
+  },
+  {
+   "mode": "text",
+   "level": "easy",
+   "q": "Hansı peyğəmbər hələ beşikdə ikən danışdı?",
+   "options": [
+    "Yəhya",
+    "Musa",
+    "İsa"
+   ],
+   "correct": 2,
+   "source": "Quran, 19:29–30",
+   "q_voice": "Üçüncü sual. Hansı peyğəmbər hələ beşikdə ikən danışdı?",
+   "a_voice": "İsa əleyhissalam."
+  },
+  {
+   "mode": "text",
+   "level": "medium",
+   "q": "Allah küləyi hansı peyğəmbərin ixtiyarına verdi?",
+   "options": [
+    "Süleyman",
+    "Harun",
+    "Nuh"
+   ],
+   "correct": 0,
+   "source": "Quran, 21:81; 34:12",
+   "q_voice": "Dördüncü sual. Allah küləyi hansı peyğəmbərin ixtiyarına verdi?",
+   "a_voice": "Süleyman əleyhissalam."
+  },
+  {
+   "mode": "text",
+   "level": "medium",
+   "q": "Allah dəmiri hansı peyğəmbər üçün yumşaltdı?",
+   "options": [
+    "İbrahim",
+    "Davud",
+    "İdris"
+   ],
+   "correct": 1,
+   "source": "Quran, 34:10",
+   "q_voice": "Beşinci sual. Allah dəmiri hansı peyğəmbər üçün yumşaltdı?",
+   "a_voice": "Davud əleyhissalam."
+  },
+  {
+   "mode": "text",
+   "level": "medium",
+   "q": "Kimi oda atdılar, od isə ona sərinlik oldu?",
+   "options": [
+    "İbrahim",
+    "Lut",
+    "İsmayıl"
+   ],
+   "correct": 0,
+   "source": "Quran, 21:68–69",
+   "q_voice": "Altıncı sual. Kimi oda atdılar, od isə ona sərinlik oldu?",
+   "a_voice": "İbrahim əleyhissalam."
+  },
+  {
+   "mode": "text",
+   "level": "medium",
+   "q": "Kimin əsası ilana çevrildi?",
+   "options": [
+    "Harun",
+    "Şueyb",
+    "Musa"
+   ],
+   "correct": 2,
+   "source": "Quran, 20:17–20",
+   "q_voice": "Yeddinci sual. Kimin əsası ilana çevrildi?",
+   "a_voice": "Musa əleyhissalam."
+  },
+  {
+   "mode": "text",
+   "level": "hard",
+   "q": "Hansı peyğəmbərin möcüzəsi dişi dəvə idi?",
+   "options": [
+    "Hud",
+    "Salih",
+    "Şueyb"
+   ],
+   "correct": 1,
+   "source": "Quran, 7:73",
+   "q_voice": "Səkkizinci sual. Hansı peyğəmbərin möcüzəsi dişi dəvə idi?",
+   "a_voice": "Salih əleyhissalam."
+  },
+  {
+   "mode": "text",
+   "level": "hard",
+   "q": "Hud peyğəmbər hansı qövmə göndərilmişdi?",
+   "options": [
+    "Ad qövmünə",
+    "Səmud qövmünə",
+    "Mədyən əhlinə"
+   ],
+   "correct": 0,
+   "source": "Quran, 7:65",
+   "q_voice": "Doqquzuncu sual. Hud peyğəmbər hansı qövmə göndərilmişdi?",
+   "a_voice": "Ad qövmünə."
+  },
+  {
+   "mode": "text",
+   "level": "hard",
+   "q": "Nuh öz qövmü arasında neçə il yaşadı?",
+   "options": [
+    "500 il",
+    "1000 il",
+    "950 il"
+   ],
+   "correct": 2,
+   "source": "Quran, 29:14 — «əlli il əskik min il»",
+   "q_voice": "Onuncu sual. Nuh öz qövmü arasında neçə il yaşadı?",
+   "a_voice": "Doqquz yüz əlli il."
+  }
+ ]
+}
