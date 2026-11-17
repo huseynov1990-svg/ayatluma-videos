@@ -1,0 +1,12 @@
+# N | блок | VIDEO
+1 | 1 | VIDEO: dawn sky clouds sunrise
+2 | 2 | VIDEO: morning light rays clouds
+3 | 3 | VIDEO: desert oasis palm trees
+4 | 4 | VIDEO: calm lake sunrise
+5 | 5 | VIDEO: golden sunrise clouds sky
+6 | 6 | VIDEO: green hills morning mist
+7 | 7 | VIDEO: river flowing forest
+8 | 8 | VIDEO: rain drops leaves
+9 | 9 | VIDEO: wheat field sunset
+10 | 10 | VIDEO: sunrise over sea
+11 | 11 | VIDEO: light rays sky clouds
