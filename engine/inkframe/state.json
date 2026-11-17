@@ -1,7 +1,7 @@
 {
  "channel_id": "UC-3TZ_7BHntBBmOcdjKdKVQ",
  "wrong_number": {
-  "next_episode": 2,
+  "next_episode": 3,
   "episodes": [
    {
     "ep": 1,
@@ -10,16 +10,35 @@
     "published": "2026-11-13 23:00 MSK",
     "summary": "1:12 AM, courier Eli Brooks (24, owes $1,800 rent, final notice) gets a call meant for another courier: take what's in locker 14 at Grand Street Station (code 7319) to the blue door on Pier Nine before 2 AM for $5,000, don't open it, don't call back. Locker holds a small heavy metal case with a yellow FRAGILE sticker; it hums. A man in a long grey coat watches; a text says 'Don't trust the man in grey.' Eli flees by bike to Pier Nine, 1:54 AM; the case is now also ticking.",
     "vote": "OPEN (open the case) vs DELIVER (knock on the blue door)"
+   },
+   {
+    "ep": 2,
+    "title": "Door Number Nine",
+    "published": "2026-11-17 23:00 MSK (scheduled, Metricool)",
+    "planner": "https://app.metricool.com/planner/calendar?blogId=8160878&openWithPostUuid=-4852208959062851166",
+    "summary": "1:55 AM on Pier Nine, Eli opens the case: a stopped gold pocket watch (hands at 2:00, still ticking), a brass key tagged 9, and a photo of Eli in the Fifth Street diner taken BEFORE the call - it was never the wrong number. The man in grey finally speaks: 'Don't knock on that door, son' - he made the same delivery 22 years ago and 'never came home'. The blue door opens: a woman in a red coat and black gloves knows Eli's name, says his rent is already paid, wants the case AND the key. Man in grey: 'she's paying for what the key opens'; she says he's been lying 22 years. Text from the unknown number: 'Don't give her the key. It opens the door to your father.' Eli's father vanished 22 years ago near the river when Eli was 2 - Eli suspects the man in grey is his father. Ends at 2:00 with her gloved hand out.",
+    "question": "Give her the key or keep it (door number nine)?",
+    "shorts": [
+     {
+      "slot": "2026-11-17 17:00",
+      "uuid": "6622547292573614772"
+     },
+     {
+      "slot": "2026-11-18 15:00",
+      "uuid": "8069903640605642627"
+     }
+    ]
    }
   ],
   "characters": {
    "Eli Brooks": "24, courier, beanie, grey hoodie, yellow delivery bag",
-   "Man in grey": "long grey coat, hat, never speaks yet",
-   "The caller": "quiet fast male voice, unknown number"
+   "Man in grey": "long grey coat, hat, tired old voice; made the same delivery 22 years ago; possibly Eli's father",
+   "The caller": "quiet fast male voice, unknown number",
+   "Woman in red": "red coat, black gloves, black hair, calm smile; waits behind the blue door; paid Eli's rent"
   }
  },
  "i_was_there": {
-  "next_episode": 2,
+  "next_episode": 3,
   "episodes": [
    {
     "ep": 1,
@@ -27,10 +46,27 @@
     "video_id": "an2fw_hsdRk",
     "summary": "Ava, 19, third class, rescued in Collapsible D by Carpathia.",
     "published": "2026-11-14 20:00 MSK"
+   },
+   {
+    "ep": 2,
+    "topic": "Building the Great Pyramid of Giza, c. 2560 BC",
+    "title": "I Was There When They Built the Great Pyramid",
+    "published": "2026-11-17 20:00 MSK (scheduled, Metricool)",
+    "planner": "https://app.metricool.com/planner/calendar?blogId=8160878&openWithPostUuid=282525269162411089",
+    "summary": "Ava, 19, bakes bread for pyramid workers in the workers' town; paid workers not slaves, gang 'Friends of Khufu'; rides Merer's boat with Tura limestone (Diary of Merer, Wadi al-Jarf); wet-sand sledges, ramps, Aswan granite, doctors, workers' tombs, Hemiunu, 146 m, tallest for ~3,800 years.",
+    "shorts": [
+     {
+      "slot": "2026-11-17 15:00",
+      "uuid": "4144557814788672324"
+     },
+     {
+      "slot": "2026-11-17 19:00",
+      "uuid": "5907654228603258138"
+     }
+    ]
    }
   ],
   "topic_queue": [
-   "Building the Great Pyramid of Giza",
    "Pompeii, 79 AD",
    "The Hindenburg, 1937",
    "The 33 Chilean miners rescued, 2010",
@@ -47,5 +83,6 @@
    "Moon landing, 1969",
    "Building the Brooklyn Bridge, 1883"
   ]
- }
+ },
+ "notes": "Run 2026-11-17: engine/inkframe/ep02 has the generic builder build_gen.py (cfg.json per episode) + scene/thumb scripts. Slot 2026-11-18 15:00 MSK already taken by a WN Ep2 Short."
 }
