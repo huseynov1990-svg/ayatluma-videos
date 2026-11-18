@@ -1,7 +1,7 @@
 {
  "channel_id": "UC-3TZ_7BHntBBmOcdjKdKVQ",
  "wrong_number": {
-  "next_episode": 3,
+  "next_episode": 4,
   "episodes": [
    {
     "ep": 1,
@@ -28,17 +28,36 @@
       "uuid": "8069903640605642627"
      }
     ]
+   },
+   {
+    "ep": 3,
+    "title": "Under the Pier",
+    "published": "2026-11-18 23:00 MSK (scheduled, Metricool)",
+    "planner": "https://app.metricool.com/planner/calendar?blogId=8160878&openWithPostUuid=-7194317776436179121",
+    "summary": "At exactly 2:00 the stopped gold watch starts ticking again. Eli refuses to give up the key; the woman in red: 'Your father said no too.' The lamp goes out, the man in grey says 'Run'; they hide in an old boathouse from a passing car. He is Walter: 22 years ago he and Eli's father carried the same case to the blue door - the father went in, Walter stayed on the pier ('I was a coward'). The watch back is engraved 'To Daniel. Come home before two.' (Daniel Brooks = Eli's father). Stone steps under the pier lead to a brick tunnel of numbered iron doors; at black iron door 9 someone knocks three times from the other side. Text from the unknown number: 'Don't open it yet. She's right behind you.' Something red moves at the end of the tunnel; watch reads 2:04.",
+    "question": "Open door nine now, or turn around and face the woman in red?",
+    "shorts": [
+     {
+      "slot": "2026-11-19 15:00",
+      "uuid": "2154109626212368497"
+     },
+     {
+      "slot": "2026-11-19 19:00",
+      "uuid": "2929754522498909813"
+     }
+    ]
    }
   ],
   "characters": {
    "Eli Brooks": "24, courier, beanie, grey hoodie, yellow delivery bag",
-   "Man in grey": "long grey coat, hat, tired old voice; made the same delivery 22 years ago; possibly Eli's father",
+   "Man in grey": "Walter: grey hair, long scar on cheek, long grey coat, hat; 22 years ago carried the same case with Eli's father Daniel, stayed on the pier",
    "The caller": "quiet fast male voice, unknown number",
-   "Woman in red": "red coat, black gloves, black hair, calm smile; waits behind the blue door; paid Eli's rent"
+   "Woman in red": "red coat, black gloves, black hair, calm smile; waits behind the blue door; paid Eli's rent",
+   "Daniel Brooks": "Eli's father, vanished 22 years ago after going through the blue door; watch engraved 'To Daniel. Come home before two.'"
   }
  },
  "i_was_there": {
-  "next_episode": 3,
+  "next_episode": 4,
   "episodes": [
    {
     "ep": 1,
@@ -64,10 +83,27 @@
       "uuid": "5907654228603258138"
      }
     ]
+   },
+   {
+    "ep": 3,
+    "topic": "Pompeii, 79 AD",
+    "title": "I Was in Pompeii When Vesuvius Erupted",
+    "published": "2026-11-18 20:00 MSK (scheduled, Metricool)",
+    "planner": "https://app.metricool.com/planner/calendar?blogId=8160878&openWithPostUuid=1754241378781121850",
+    "summary": "Ava, 19, sells bread near the bakery of Modestus; street life, stepping stones, wall graffiti/election notices; 62 AD earthquake; midday eruption, Pliny the Younger's 'pine tree' cloud; pumice all night; Pliny the Elder sails toward the volcano after Rectina's plea and dies; pyroclastic surge at dawn; buried 1,600+ years; 81 carbonised loaves; Fiorelli's plaster casts (1860s); 1,000+ victims found; 2018 charcoal inscription suggests October 24.",
+    "shorts": [
+     {
+      "slot": "2026-11-18 21:30",
+      "uuid": "-4033804706636083747"
+     },
+     {
+      "slot": "2026-11-19 17:00",
+      "uuid": "5651284047162459264"
+     }
+    ]
    }
   ],
   "topic_queue": [
-   "Pompeii, 79 AD",
    "The Hindenburg, 1937",
    "The 33 Chilean miners rescued, 2010",
    "Apollo 13, 1970",
@@ -84,5 +120,5 @@
    "Building the Brooklyn Bridge, 1883"
   ]
  },
- "notes": "Run 2026-11-17: engine/inkframe/ep02 has the generic builder build_gen.py (cfg.json per episode) + scene/thumb scripts. Slot 2026-11-18 15:00 MSK already taken by a WN Ep2 Short."
+ "notes": "Run 2026-11-18: episode dirs in /home/claude/work; per-episode scene/thumb/cfg scripts in engine/inkframe/ep03. Slots taken: 2026-11-19 15:00 (WN3), 17:00 (IWT3), 19:00 (WN3) MSK shorts; free 2026-11-19 21:30."
 }
