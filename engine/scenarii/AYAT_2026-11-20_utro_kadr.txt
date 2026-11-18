@@ -1,0 +1,13 @@
+# N | блок | VIDEO
+1 | 1 | VIDEO: night sky stars milky way
+2 | 2 | VIDEO: starry night desert
+3 | 3 | VIDEO: clouds above sky sunrise
+4 | 4 | VIDEO: night sky stars time lapse
+5 | 5 | VIDEO: mountains night stars
+6 | 6 | VIDEO: clouds moving sky light
+7 | 7 | VIDEO: sunrise light rays clouds
+8 | 8 | VIDEO: calm lake dawn mist
+9 | 9 | VIDEO: golden sunrise desert dunes
+10 | 10 | VIDEO: dawn sky clouds sunrise
+11 | 11 | VIDEO: sunrise over sea
+12 | 12 | VIDEO: light rays sky clouds
