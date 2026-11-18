@@ -1,0 +1,25 @@
+# ОЧЕРЕДЬ ИСТОРИЧЕСКИХ ВИКТОРИН (с 18.11.2026, просьба пользователя: «викторина по истории Азербайджана, стран и мира»)
+# Формат: [статус] | блок | тема | Cartopolis EN?
+# Блоки чередуются: AZƏRBAYCAN → ÖLKƏLƏR → DÜNYA → AZƏRBAYCAN …
+# Тип text: 10 вопросов, 3 варианта, level 4 easy / 3 medium / 3 hard. У КАЖДОГО ответа source — проверяемый источник
+# (энциклопедия, UNESCO, официальный сайт, учебник истории; год/номер), всё проверить веб-поиском перед озвучкой.
+# Только бесспорные факты (даты, имена, «где/когда/кто первый»). Войны и границы — нейтрально, без оценок и без спорных цифр жертв.
+# Cartopolis (EN): только блоки ÖLKƏLƏR и DÜNYA (история Азербайджана — только на Tarixin izi).
+# Голос: AZ Puck, EN Laomedeia. header: «Tarixin izi · Tarix testi» / «Cartopolis · History quiz».
+# Хук intro_voice, например: «Bu 10 sualın hamısını yalnız tarix müəllimləri tapır…» / «Only history nerds get all 10…»
+# Когда остаётся меньше 3 строк [ ] — допиши 10 новых тем.
+[ ] | AZƏRBAYCAN | Azərbaycan Xalq Cümhuriyyəti 1918–1920 (yaranma tarixi, ilk paytaxt Gəncə, qadınlara seçki hüququ, bayraq, universitet) | нет
+[ ] | ÖLKƏLƏR | Qədim Misir (piramidalar, fironlar, iyeroqlif, Nil, Kleopatra) | да
+[ ] | DÜNYA | Dünyanı dəyişən kəşflər (Kolumb 1492, Magellan, ay 1969, ilk təyyarə 1903, ilk peyk 1957) | да
+[ ] | AZƏRBAYCAN | Bakı nefti (ilk qazılmış quyu Bibiheybət 1846/1848, Nobel qardaşları, neft bumu, Qız qalası, İçərişəhər UNESCO 2000) | нет
+[ ] | ÖLKƏLƏR | Roma imperiyası (Kolizey, Sezar, Roma necə yarandı, Qərbi Roma 476) | да
+[ ] | DÜNYA | İxtiralar: kim nə vaxt? (telefon, lampa, internet, penisilin, mətbəə) | да
+[ ] | AZƏRBAYCAN | Böyük şəxsiyyətlər (Nizami Gəncəvi, Füzuli, Nəsimi, Üzeyir Hacıbəyli «Leyli və Məcnun» 1908, Mirzə Fətəli Axundzadə) | нет
+[ ] | ÖLKƏLƏR | Osmanlı imperiyası (yaranma 1299, İstanbul 1453, Süleyman Qanuni, sonu 1922) | да
+[ ] | DÜNYA | Qədim dünyanın 7 möcüzəsi (hansı qalıb, harada idi) | да
+[ ] | AZƏRBAYCAN | Qədim Azərbaycan və dövlətlər (Qobustan qayaüstü təsvirləri UNESCO 2007, Albaniya, Şirvanşahlar, Səfəvilər 1501 Təbriz, Şah İsmayıl) | нет
+[ ] | ÖLKƏLƏR | Yaponiya tarixi (samuraylar, Edo, 200 il qapalı ölkə, Meyci) | да
+[ ] | DÜNYA | İpək yolu (harada başlayırdı, nə daşınırdı, Marko Polo, karvansaralar) | да
+[ ] | AZƏRBAYCAN | Azərbaycan xanlıqları (Şəki, Qarabağ, Quba, Bakı, Gəncə, Şirvan; Şəki xan sarayı, Fətəli xan) | нет
+[ ] | ÖLKƏLƏR | ABŞ necə yarandı (13 koloniya, 1776, Vaşinqton, Alyaskanın alınması 1867) | да
+[ ] | DÜNYA | XX əsrin hadisələri (Titanik 1912, Berlin divarı 1989, ilk kosmonavt 1961, ilk çip, SSRİ-nin dağılması 1991) | да
